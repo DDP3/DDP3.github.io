@@ -1,0 +1,93 @@
+<!--
+//////////////////////////////////////////////////////////
+// Created by Austin Goodrich
+// Used for FHS Digital Design & Computer Coding Class
+// http://github.com/austingoodrich/RockPaperScissors
+//////////////////////////////////////////////////////////
+-->
+
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<!-- Favicon is the small little image/icon located on a tab bar -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<!-- CSS for styling stylish styles -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<br>
+		<div class="container gamecontainer">
+			<br><br>
+			<!-- Button trigger modal -->
+			<center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			  How to Play
+			</button></center>
+			<br>
+			<div class="jumbotron">
+			  <div class="container">
+				<center><h4 id="score">Times Won: 0</h4></center>
+				<div class="row gamerow">
+				  <div class="col-md-4">
+				  <h1>Player</h1>
+					<div id="player">
+						<h3>Rock</h3>
+						<img src="img/rock.png">
+					</div>
+				  </div>
+				   <div class="col-md-4">
+					<br><br>
+					<h1 id="winner"></h1>
+				  </div>
+				  <div class="col-md-4">
+				  <h1>Computer</h1>
+					<div id="computer">
+						<h3>Rock</h3>
+						<img src="img/rock.png">
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="row gamerow">
+			<h3>Select your play</h3>
+			  <div class="col-md-4"><h3>Rock</h3><img onclick="playerRock()" class="image-high" src="img/rock.png"></div>
+			  <div class="col-md-4"><h3>Paper</h3><img onclick="playerPaper()" class="image-high" src="img/paper.png"></div>
+			  <div class="col-md-4"><h3>Scissors</h3><img onclick="playerScissors()" class="image-high"src="img/scissors.png"></div>
+			</div>
+			<br><br><br>
+		</div>
+		<!-- <button onclick="randomize()">Randomize Number</button>-->
+	</body>
+	
+	<footer>
+	<!-- Scripts are on the bottom for a reason. HTML/CSS/JS are loaded from top to bottom. Load content first then apply changes -->
+		<!-- Loading Game -->
+		<script type="text/javascript" src="game.js"></script>
+		<!-- Loading Scripts for Design Features, not needed for game -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+		
+		<!-- Modal Stuff // Not Important -->
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">How to Play</h4>
+			  </div>
+			  <div class="modal-body">
+				Click the icon for rock/paper or scissors and see if you win!
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</footer>
+</html>
