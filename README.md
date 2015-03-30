@@ -1,2 +1,2 @@
 # DDP3.github.io
-Host for period 3
+# Period 3 Class. Hosting on Github.
