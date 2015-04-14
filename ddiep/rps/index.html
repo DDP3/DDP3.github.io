@@ -1,36 +1,95 @@
 <!--
 //////////////////////////////////////////////////////////
-// Created by Austin Goodrich
-// Used for FHS Digital Design & Computer Coding Class
-// http://github.com/austingoodrich/RockPaperScissors
+// Created by Dustin Diep
+// Used for FHS Digital Design & Computer Coding ClassS
 //////////////////////////////////////////////////////////
 -->
 
 <html>
 	<head>
 		<title>Rock Paper Scissors</title>
+		
+		<!-- Sets it up for mobile. Comment out maximum-scale and user-scalable to allow zoom.-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		
 		<!-- Favicon is the small little image/icon located on a tab bar -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		
 		<!-- CSS for styling stylish styles -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		
-		<script type="text/javascript" src="js/scripts.js"></script>
-		<!-- Loading Scripts for Design Features, not needed for game -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+		
 	</head>
 	
 	<body>
-		<div>Currently just runs in the console log. Type in match("rock"), match("paper"), or match("scissors") to watch cool stuff happen.</div>
-		<div></div>
-		<div></div>
-		<div></div>
-		<div></div>
+		<!--<div>Currently just runs in the console log. Type in match("rock"), match("paper"), or match("scissors") to watch cool stuff happen.</div>-->
+		<div class="container">
+		
+			<!--Scores-->
+			<div class="row" id="scoreRow">
+				
+				
+				<div class="col-md-4 col-md-offset-4 col-xs-12" id="scoreBox">
+					
+					
+					<div class="row">
+						<div class="col-md-6 col-xs-6" id="winBox">
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<p class="text-center">Wins</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<p class="text-center" id="winNumbers" >0</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-xs-6" id="lossesBox">
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<p class="text-center">Losses</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<p class="text-center" id="lossNumbers" >0</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				
+			</div>
+			
+			<!--Results-->
+			<div class="row" id="resultRow">
+				<div class="col-md-12 col-xs-12">
+					<p class="text-center" id="resultBox">Your result will show here.</p>
+				</div>
+			</div>
+			
+			<!--Arena-->
+			<div class="row" id="arena">
+				<div class="col-md-6 col-xs-6" id="player">
+					<div class="row">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
 	</body>
 
-
+<!-- Loading Scripts -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<!--<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>-->
 
 </html>
