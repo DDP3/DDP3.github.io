@@ -1,0 +1,21 @@
+.img-center {
+	margin:0 auto;
+}
+#decidingRow{
+	border-top: solid black 5px;
+	border-bottom: solid black 5px;
+}
+#playerChoice{
+	border: solid black 5px;
+	border-radius: 2.5px;
+	margin-right: 1px;
+}
+#computerChoice{
+	border: solid black 5px;
+	border-radius: 2.5px;
+	margin-left: 1px;
+}
+.placeHolder{
+	height: 200px;
+	width: 200px;
+}
