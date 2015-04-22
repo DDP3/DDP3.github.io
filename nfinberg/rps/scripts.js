@@ -8,19 +8,19 @@ var playerChoice;
 var computerChoice;
 
 function playerRock() {
-	document.getElementById("innerPlayerChoice").innerHTML= "<br> <img src='pictures/rock.jpg' alt='rock' class='img-responsive img-center'> <br> <p>Rock</p>";
+	document.getElementById("innerPlayerChoice").innerHTML= "<br> <img src='http://i.imgur.com/mfvUp1y.jpg' alt='rock' class='img-responsive img-center'> <br> <p>Rock</p>";
 	playerChoice = 1;
 	randomize();
 }
 
 function playerPaper() {
-	document.getElementById("innerPlayerChoice").innerHTML= "<br> <img src='pictures/paper.jpg' alt='paper' class='img-responsive img-center'> <br> <p>Paper</p>";
+	document.getElementById("innerPlayerChoice").innerHTML= "<br> <img src='http://i.imgur.com/25aRHEo.jpg' alt='paper' class='img-responsive img-center'> <br> <p>Paper</p>";
 	playerChoice = 2;
 	randomize();
 }
 
 function playerScissors() {
-	document.getElementById("innerPlayerChoice").innerHTML= "<br> <img src='pictures/scissors.jpg' alt='scissors' class='img-responsive img-center'> <br> <p>Scissors</p>";
+	document.getElementById("innerPlayerChoice").innerHTML= "<br> <img src='http://i.imgur.com/BL0qK4J.jpg' alt='scissors' class='img-responsive img-center'> <br> <p>Scissors</p>";
 	playerChoice = 3;
 	randomize();
 }
@@ -33,13 +33,13 @@ function randomize() {
 function compChoice() {
 	if (randomNumber <= 33) {
 		computerChoice = 1;
-		document.getElementById("innerComputerChoice").innerHTML= "<br> <img src='pictures/rock.jpg' alt='rock' class='img-responsive img-center'> <br> <p>Rock</p>";
+		document.getElementById("innerComputerChoice").innerHTML= "<br> <img src='http://i.imgur.com/mfvUp1y.jpg' alt='rock' class='img-responsive img-center'> <br> <p>Rock</p>";
 	} else if (randomNumber <= 66) {
 		computerChoice = 2;
-		document.getElementById("innerComputerChoice").innerHTML= "<br> <img src='pictures/paper.jpg' alt='paper' class='img-responsive img-center'> <br> <p>Paper</p>";
+		document.getElementById("innerComputerChoice").innerHTML= "<br> <img src='http://i.imgur.com/25aRHEo.jpg' alt='paper' class='img-responsive img-center'> <br> <p>Paper</p>";
 	} else if (randomNumber <= 100) {
 		computerChoice = 3;
-		document.getElementById("innerComputerChoice").innerHTML= "<br> <img src='pictures/scissors.jpg' alt='scissors' class='img-responsive img-center'> <br> <p>Scissors</p>";
+		document.getElementById("innerComputerChoice").innerHTML= "<br> <img src='http://i.imgur.com/BL0qK4J.jpg' alt='scissors' class='img-responsive img-center'> <br> <p>Scissors</p>";
 	};
 
 	compare();
