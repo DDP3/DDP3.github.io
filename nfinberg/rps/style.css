@@ -5,16 +5,19 @@
 	border: solid grey 5px;
 	border-radius: 10px;
 	background-color: grey;
+	margin: 5px;
 }
 #playerChoice{
 	border: solid grey 5px;
 	border-radius: 10px;
 	background-color: grey;
+	margin: 5px;
 }
 #computerChoice{
 	border: solid grey 5px;
 	border-radius: 10px;
 	background-color: grey;
+	margin: 5px;
 }
 #innerPlayerChoice{
 	width: 399px;
