@@ -19,11 +19,7 @@
 	background-color: grey;
 	margin: 5px;
 }
-#innerPlayerChoice{
-	width: 399px;
-	height: 260px;
-}
-#innerComputerChoice{
-	width: 399px;
-	height: 260px;
+.placeHolder{
+	width: 200px;
+	height: 200px;
 }
