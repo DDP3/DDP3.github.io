@@ -2,18 +2,19 @@
 	margin:0 auto;
 }
 #decidingRow{
-	border-top: solid black 5px;
-	border-bottom: solid black 5px;
+	border: solid grey 5px;
+	border-radius: 10px;
+	background-color: grey;
 }
 #playerChoice{
-	border: solid black 5px;
-	border-radius: 2.5px;
-	margin-right: 1px;
+	border: solid grey 5px;
+	border-radius: 10px;
+	background-color: grey;
 }
 #computerChoice{
-	border: solid black 5px;
-	border-radius: 2.5px;
-	margin-left: 1px;
+	border: solid grey 5px;
+	border-radius: 10px;
+	background-color: grey;
 }
 #innerPlayerChoice{
 	width: 399px;
