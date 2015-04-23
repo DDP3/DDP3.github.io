@@ -16,7 +16,7 @@
 <body>
 	<div class="container">
 
-		<div class="row">
+		<div class="row" id="title">
 			<h1 class="text-center">Form Example</h1>
 		</div>
 
@@ -27,103 +27,109 @@
 					<div class="form-group">
 						
 						<h2>Textbox: </h2>
+						<h3>Name: </h3>
 						
-						<input type="text" name="txtbox" class="form-control"/>
+						<input type="text" name="username" class="form-control"/>
 					</div>
 
 					<div class="form-group">
 						
 						<h2>Password: </h2>
+						<h3>Secret data: </h3>
 						
-						<input type="password" name="password" class="form-control"/>
+						<input type="password" name="secretData" class="form-control"/>
 					</div>
 
 					<div class="form-group">
 						<h2>Textarea:</h2>
-						<textarea rows="4" class="form-control"></textarea>
+						<h3>Bio: </h3>
+						<textarea rows="4" class="form-control" name="bio"></textarea>
 						
 					</div>
+
+					
+					<div class="row">
+						
+						<div class="form-group col-md-6">
+							<h2>Radio Buttons:</h2>
+							<h3>Gender:</h3>
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="gender" value="male"/> 
+									Male 
+								</label>
+							</div>
+
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="gender" value="female"/> 
+									Female 
+								</label>
+							</div>
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="gender" value="other"/> 
+									Other
+								</label>
+							</div>
+						</div>
+
+						<div class="form-group col-md-6">
+							<h2>Checkboxes:</h2>
+							<h3>Limbs I have:</h3>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="limbs" value="arms">
+									Arms
+								</label>
+							</div>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="limbs" value="legs">
+									Legs
+								</label>
+							</div>
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="limbs" value="head">
+									Head
+								</label>
+							</div>
+						</div>
+						</div>
+					
 
 					<div class="form-group">
 						
-						<h2>Radio Buttons (gender): </h2>
-						
+						<h2>Dropdown Selector:</h2>
+						<h3>Car I want: </h3>
 
-						<div class="radio">
-							<label>
-								<input type="radio" name="gender" value="Male"/> 
-								Male 
-							</label>
-						</div>
-
-
-						<div class="radio">
-							<label>Female: </label>
-							<input type="radio" name="gender" value="Female"/>
-						</div>
-
-						<div class="radio">
-							<label>Other: </label>
-							<input type="radio" name="gender" value="Other"/>
-						</div>
-					</div>
-				</div>
-
-				<div class="row chunk">
-					<div class="row">
-						<h2 class="col-md-12 text-center">Checkboxes (limbs I have): </h2>
-					</div>
-
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<label>Arms: </label>
-							<input type="checkbox" name="limbs" value="arms"/>
-						</div>
-
-						<div class="col-md-4 text-center">
-							<label>Legs: </label>
-							<input type="checkbox" name="limbs" value="legs"/>
-						</div>
-
-						<div class="col-md-4 text-center">
-							<label>Head: </label>
-							<input type="checkbox" name="limbs" value="head"/>
-						</div>
-					</div>
-				</div>
-
-				<div class="row chunk">
-					<div class="row">
-						<h2 class="col-md-12 text-center">Dropdown Selector</h2>
-					</div>
-
-					<div class="row">
-						<label class="col-md-4">Cars: </label>
-
-						<select name="cars" class="col-md-8">
+						<select name="cars" class="form-control">
 							<option value="volvo">Volvo XC90</option>
 							<option value="saab">Saab 95</option>
 							<option value="mercedes">Mercedes SLK</option>
 							<option value="audi">Audi TT</option>
 						</select>
-
 					</div>
-				</div>
 
-				<div class="row chunk">
-					<div class="col-md-12 text-center">
-						<input type="submit" name="submit" value="Submit"/>
+					<div class="form-group text-center">
+						<input type="submit" name="submit" value="Submit" class="btn btn-default"/>
 					</div>
-				</div>
 
-			</form>
+				</form>
 
+			</div>
+		</div>
+
+		<div class="col-md-5 col-md-offset-1" id="content-display">
 		</div>
 	</div>
-	<div class="col-md-6" id="content-display">
-
-	</div>
-</div>
 </body>
 
 <script type="text/javascript" src="js/scripts.js"></script>
