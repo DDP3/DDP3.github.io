@@ -29,4 +29,5 @@ function displayPerson(event) {
 	var html = "<p>My name is " + Person.name + ".</p><p>My secret data is " + Person.secretData + ".</p><p>Here's a bio about me... " + Person.bio + "</p><p>My gender is " + Person.gender + ".</p><p>I have these limbs: " + Person.limbs.join(", ") + ".</p><p>I want this car: " + Person.car + ".</p>";
 
 	$("#content-display").html(html);
+	$('html,body').scrollTop(0);
 }
