@@ -1,0 +1,41 @@
+<div class="grid_12" id="nav">
+	<ul class="nav">
+		<li><a href="index.html" class="nav">Featured</a></li>
+		<li><a href="#" class="nav">Reviews</a></li>
+		<li><a href="stream.html" class="nav">Stream</a></li>
+		<li><a href="#" class="nav">Contact</a></li>
+	</ul>
+</div> -->
+
+
+ul.nav li {
+	float: left;
+	margin-left: 105px;
+}
+
+ul.nav {
+	list-style-type: none;
+	display: block;
+	width: auto;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+.nav a {
+	text-align: center;
+	display: block;
+	width: 140px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #6340a4;
+	border: solid black 5px;
+}
+
+.nav a:visited {
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #ffffff;
+	color: #6340a4;
+}

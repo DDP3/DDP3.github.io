@@ -1,0 +1,79 @@
+@media (min-width: 1200px) {
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin: 0px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	text-decoration: none;
+	font-style: none;
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+.side_bar {
+	margin-left: 8px;
+}
+
+
+.side_bar img {
+	border: solid black 3px;
+}
+
+.article_by {
+	font-style: italic;
+	font-size: 18px;
+}
+
+.article_title {
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	border: solid black 3px;
+	line-height: 37px;
+}
+
+#nav_div {
+	border-top: solid black 5px;
+	background-color: #6340a4;
+	text-align: center;
+	font-size: 30px;
+}
+
+#nav_div a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#nav_div a:hover {
+	text-decoration: none;
+	background-color: #fff;
+	color: #6340a4;
+}
+
+#nav_div a:visited {
+	text-decoration: none;
+}
+}
