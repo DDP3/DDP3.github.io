@@ -1,0 +1,14 @@
+body {
+	background-color: darkcyan;
+}
+
+h1 {
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+
+#spacer {
+	width: 100%;
+	height: auto;
+}
