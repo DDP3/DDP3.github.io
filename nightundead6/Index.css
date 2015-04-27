@@ -1,0 +1,104 @@
+h1 {
+	text-align: center;
+	color: white;
+	border: 5px;
+	border: solid #16497A;
+	background-color: #885815;
+	border-radius: 10px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+}
+
+li {
+	float: left;
+	border-radius: 10px;
+	list-style: none;
+	text-align: center;
+	border:solid #16497A;
+	background-color: #885815;
+	margin-left: 0;
+	margin-right: 0;
+	margin: 0;
+	width: 24%;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive;
+
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#links {
+	margin-left: 0
+}
+img {
+	height: 400px;
+	width: 32%;
+	float: left;
+	padding: 10px;
+}
+#pictures {
+	float: left;
+	margin-top: 10px;
+}
+
+#divhome {
+	background-image: url("Earth-1260.jpg");
+	background-size: 100%
+
+}
+
+#pop-up {
+margin-left: 45%;
+
+}
+#buttons {
+	font-family: "Comic Sans MS", cursive;
+	width: 150px;
+	margin: 0px;
+	margin-top: 5%;
+	font-size: 30px;
+	border:1px solid black;
+	text-shadow: 1px 1px 1px #000;
+	background-color: #885815;
+	border-radius: 10px;
+}
+
+#answers {
+	float: left;
+	font-size: 30px;
+	margin-left: 50%;
+	background: center;
+	border: solid black 5px;
+	background-color: blue;
+	width: 25%;
+	height: 35%;
+
+}
+#paragraph { 
+	border: solid black;
+	border-radius: 10px;
+	background-color: blue;
+	float: left;
+	width:90%;
+	margin-left: 5%;
+	margin-top: 50px;
+	text-align: center;
+}
+.journal{
+	color: white;
+	border: solid black;
+	border-radius: 10px;
+	background-color: #885815;
+	float: left;
+	width:90%;
+	margin-left: 3%;
+	margin-top: 25px;
+	text-align: center;
+}
