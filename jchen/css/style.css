@@ -1,0 +1,49 @@
+body {
+	background-color: #55AA55;
+}
+
+header {
+	background-color: #88CC88;
+	padding: 80px;
+	margin-bottom: 20px;
+}
+
+#response {
+	padding: 10px;
+	background-color: #2D882D;
+	height: 300px;
+	min-width: 500px;
+	margin-top: 20px;
+}
+
+.small {
+	width: 40%;
+	height: 100px;
+	background-color: #2D882D;
+}
+
+#user {
+	float: left;
+}
+
+#computer {
+	float: right;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+}
+
+#inputs {
+	min-width: 500px;
+}
+
+#output_log {
+	height: 275px;
+	overflow: scroll;
+}
+
+#score {
+	margin-top: 20px;
+}

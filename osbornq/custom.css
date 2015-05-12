@@ -1,14 +1,9 @@
-body {
-	background-color: darkcyan;
-}
-
 h1 {
-	padding: 20px;
-	margin-bottom: 50px;
+	margin-top: 100px;
+	text-align: center;
 }
 
-
-#spacer {
-	width: 100%;
-	height: auto;
+.italicize {
+	font-style: italic;
 }
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ROCK PAPER SCISSORING</title>
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="custom.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+      	    <div class="container-fluid">
+       	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://ddp3.github.io/osbornq/index.html">Home</a></li>
+                        <li><a href="http://ddp3.github.io/osbornq/journal/index.html">My Web Journal</a></li>
+                        <li><a href="index.html">Rock, Paper, Scissors</a></li>
+                    </ul>
+                </div>
+      	    </div>
+	 </nav>
+
+	<h1 class="text-center">Rock, Paper, Scissors!</h1>
+
+	<h3 class="text-center">Take your pick</h3>
+
+	<div class="container-fluid">
+		<div class="row">
+			<h4 class="col-md-4 col-xs-4 text-center">Rock</h4>
+			<h4 class="col-md-4 col-xs-4 text-center">Paper</h4>
+			<h4 class="col-md-4 col-xs-4 text-center">Scissors</h4>
+		</div>
+	</div>
+
+
+	<div id="choiceWrap" class="container-fluid">
+		<div class="row">
+			<div id="rock" class="col-md-4 col-xs-4">
+				<img class="img-responsive center-block" onclick="chooseRock()" src="http://i.imgur.com/sN18QfH.png">
+			</div>
+
+			<div id="paper" class="col-md-4 col-xs-4">
+				<img class="img-responsive center-block" onclick="choosePaper()" src="http://i.imgur.com/KOycsmT.jpg">
+			</div>
+
+			<div id="scissors" class="col-md-4 col-xs-4">
+				<img class="img-responsive center-block" onclick="chooseScissors()" src="http://i.imgur.com/zeb2wWO.png">
+			</div>
+		</div>
+	</div>
+
+	<div id="spacer">
+		<h3 class="text-center">Result: <span id="result"></span></h3>
+		<h4 class="text-center">Score: <span id="points"></span></h4>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<h4 class="col-md-6 col-xs-6 text-center">Player</h4>
+			<h4 class="col-md-6 col-xs-6 text-center">Computer</h4>
+		</div>
+	</div>
+
+
+	<div id="gameWrap" class="container-fluid">
+		<div class="row">
+			<div id="playerChoose" class="col-md-6 col-xs-6"></div>
+		
+			<div id="computerChoose" class="col-md-6 col-xs-6"></div>
+		</div>
+	</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="custom.js" type="text/javascript"></script>	
+</body>
+</html>
