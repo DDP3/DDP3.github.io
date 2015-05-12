@@ -1,7 +1,7 @@
 /*What are objects?*/
 
 //Objects are a very important part of coding. Javascript is considered an object oriented programming (OOP) language, meaning it uses objects.
-//Objects can be though of as a container, like an array, which stores relevant information and can interact with it. It can have variables and functions, but they're called properties and methods respectively.
+//Objects can be thought,m/. of as a container, like an array, which stores relevant information and can interact with it. It can have variables and functions, but they're called properties and methods respectively.
 //But what can be an object? Well, pretty much anything that's a noun. A person, an animal, food, or, more practically, a user or application handler. Any set of related variables and functions can be grouped together into an object.
 
 
@@ -32,7 +32,7 @@ var Bob = {
 		
 		console.log(this.name);
 
-		//You'll notice that for saying his name, I used the format "this.name". "this" refers to this object, namely, bob. Not to hard of a concept. I'll get into accessing object properties with the dot format in a bit.
+		//You'll notice that for saying his name, I used the format "this.name". "this" refers to this object, namely, bob. Not too hard of a concept. I'll get into accessing object properties with the dot format in a bit.
 	},
 
 	//We can also make methods that change properties within the object.
