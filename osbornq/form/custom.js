@@ -12,7 +12,6 @@ function submitForm(event) {
       var dog= "dog";
     }
     else {
-      break;
       console.log("No dog owned");
     }
   }
@@ -21,7 +20,6 @@ function submitForm(event) {
       var cat = "cat";
     }
     else {
-      break;
       console.log("No cat owned");
     }
   }
