@@ -29,11 +29,11 @@
       <h3>What kind of pets do you have?</h3>
       <div class="checkbox">
         <label>
-          <input type="checkbox"> Dog
+          <input type="checkbox" id="dog"> Dog
         </label>
         <br>
         <label>
-          <input type="checkbox"> Cat
+          <input type="checkbox" id="cat"> Cat
         </label>
         <br>
         <label>
@@ -53,7 +53,7 @@
         </label>
       </div>
       
-      <input name="submit" class="btn btn-info" type="submit" onclick="submitForm()" value="Submit">
+      <input name="submit" class="btn btn-info" type="submit" onclick="submitForm() dogBox() catBox()" value="Submit">
     
     </form>
     
