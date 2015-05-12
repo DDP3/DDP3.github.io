@@ -16,7 +16,7 @@ function submitForm(event) {
     }
   }
   function catBox() {
-    if (document.getElemnentById("cat").checked) {
+    if (document.getElementById("cat").checked) {
       var cat = "cat";
     }
     else {
