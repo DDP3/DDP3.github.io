@@ -16,6 +16,15 @@ function submitForm(event) {
       console.log("No dog owned");
     }
   }
+  function catBox {
+    if (document.getElemnyById("cat").checked) {
+      var cat = "cat";
+    }
+    else {
+      break;
+      console.log("No cat owned");
+    }
+  }
 }
 
 document.getElementById("cookieAnswer").innerHTML = cookieText;
