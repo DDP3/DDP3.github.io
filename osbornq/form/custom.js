@@ -8,4 +8,4 @@ function submitForm(event) {
   var cookieText = "<p>Your favorite kind of cookie is " + cookie.favoriteCookie + ".</p>"
 }
 
-document.getElementById("cookieAnswer").innerHTML = "cookieTest";
+document.getElementById("cookieAnswer").innerHTML = cookieText;
