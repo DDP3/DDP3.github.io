@@ -7,7 +7,7 @@ function submitForm(event) {
   }
   var cookieText = "<p>Your favorite kind of cookie is " + cookie.favoriteCookie + ".</p>";
   
-  function dogBox {
+  function dogBox() {
     if (document.getElementById("dog").checked) {
       var dog= "dog";
     }
@@ -16,7 +16,7 @@ function submitForm(event) {
       console.log("No dog owned");
     }
   }
-  function catBox {
+  function catBox() {
     if (document.getElemnyById("cat").checked) {
       var cat = "cat";
     }
