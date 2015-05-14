@@ -3,13 +3,14 @@
 <head>
 	<title>Form Practice</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div class="row">
-		<div class="col-md-12"><h1>I am going to steal your identity, PLEASE ANSWER MY QUESTIONS!</h1></div>
+		<div class="col-md-12 text-center"><h1>I am going to steal your identity, PLEASE ANSWER MY QUESTIONS!</h1></div>
 	</div>
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-4 text-center">
 			<h4>How Much is in Your Bank Account?</h4>
 			<form class="form-inline">
 				<div class="form-group">
@@ -23,7 +24,7 @@
 				<button type="submit" class="btn btn-primary">Transfer cash</button>
 			</form>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 text-center">
 			<h4>Do you have a credit card?</h4>
 			<ul>
 				<li>
@@ -44,19 +45,19 @@
 				</li>
 			</ul>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 text-center">
 			<h4>Selling your Infomation</h4>
 			<button class="btn btn-default" onclick="sellInformation()">Click to Submit</button>
 		</div> 
 	</div>
 	<div class="row">
-		<div class="col-md-12" id="informationSold">
-			
+		<div class="col-md-12 text-center">
+			<p id="informationSold" style="font: 400 100px/1.3 'Oleo Script', Helvetica, sans-serif; color: #2b2b2b; text-shadow: 4px 4px 0px rgba(0,0,0,0.1);"></p>
 		</div>
 	</div>
 	<script type="text/javascript">
 		function sellInformation() {
-			document.getElementById("informationSold").innerHTML = "<p>Thank you for submitting your information to all of the major crime organizations.</p>";
+			document.getElementById("informationSold").innerHTML = "Thank you for submitting your information to all of the major crime organizations.";
 		};
 	</script>
 </body>
