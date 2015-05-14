@@ -15,7 +15,7 @@ function submitForm(event) {
     rabbit: form.rabbitCheck.value,
     other: form.otherCheck.value,
   }
-  var petText = "<p>The pets that you own are " + pet.dogCheck + ".</p>";
+  var petText = "<p>The pets that you own are " + pet.dog + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
 }
 
