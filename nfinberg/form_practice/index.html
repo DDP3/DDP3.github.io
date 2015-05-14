@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-12"><h1>I am going to steal your identity, PLEASE ANSWER MY QUESTIONS!</h1></div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<h4>How Much is in YOUr Bank Account?</h4>
+			<form class="form-inline">
+				<div class="form-group">
+					<label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+					<div class="input-group">
+						<div class="input-group-addon">$</div>
+						<input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+						<div class="input-group-addon">.00</div>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Transfer cash</button>
+			</form>
+		</div>
+		<div class="col-md-4">
+			<h4>Do you have a credit card?</h4>
+			<ul>
+				<li>
+					<div class="radio">
+						<label>
+							<input type="radio" value="">
+							Yes
+						</label>
+					</div>
+				</li>
+				<li>
+					<div class="radio">
+						<label>
+							<input type="radio" value="">
+							No
+						</label>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h4>Selling your Infomation</h4>
+			<input class="btn btn-default" type="submit" onclick="sellInformation()" value="Submit">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12" id="informationSold">
+			
+		</div>
+	</div>
+	<scripts type="text/javascript" href="scripts.js"></scripts>
+</body>
+</html>

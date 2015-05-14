@@ -1,0 +1,81 @@
+body {
+	background-color: #08382A;
+}
+
+h1 {
+	border: 12px solid black;
+	border-radius: 20px;
+	background-color: #58A791;
+	padding: 30px;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.link {
+	border: 8px solid black;
+	border-radius: 12px;
+	padding: 20px;
+	width: 40%;
+	margin: 50px auto 50px auto;
+	text-align: center;
+	background-color: #58A791;
+}
+
+.link a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #651323
+}
+
+.listWrap {
+	border: 6px solid black;
+	border-radius: 10px;
+	display: block;
+	min-height: 210px;
+	height: auto;
+	width: 40%;
+	margin-bottom: 20px;
+	background-color: #58A791;
+}
+
+.listWrap h3 {
+	text-align: center;
+}
+
+#bevWrap {
+	float:right;
+	margin-right: 5%;
+}
+
+#foodWrap {
+	float:left;
+	margin-left: 5%;
+}
+
+li {
+	font-size: 1.2em;
+}
+
+img {
+	width: 600px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}

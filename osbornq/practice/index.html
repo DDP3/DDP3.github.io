@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Project</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+	<h1>Food Is Here</h1>
+
+	<div class="listWrap" id="foodWrap">
+		<button onclick="foodButton()">Click to enter preferred foods.</button>
+		<h3>This is what you are eating:</h3>
+
+		<ul id="food"></ul>
+	</div>
+
+	<div class="listWrap" id="bevWrap">
+		<button onclick="bevButton()">Click to enter preferred beverages.</button>
+		<h3>This is what you are drinking:</h3>
+
+		<ul id="beverage"></ul>
+	</div>
+
+	<input type="button" value="Click to see some real food." onclick="showPic()"/>
+
+	<!--<button onclick="showPic()">Click to see some real food.</button>-->
+
+	<img src="" alt="" id="pie"></img>
+	
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
