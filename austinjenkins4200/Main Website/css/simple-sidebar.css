@@ -456,21 +456,21 @@ button
 
 /*-------------------------------Coverpage Buttons---------------------------*/
 
-.facebookButton img {
+#facebookButton img {
     height: 2em;
     width: 40px;
 
 
 }
 
-.googleButton img {
+#googleButton img {
     height: 2em;
     width: 40px;
 
 
 }
 
-.twitterButton img {
+#twitterButton img {
     height: 2em;
     width: 40px; 
 
@@ -503,11 +503,20 @@ button
     margin-top: 2px;
 }
 
+.randomFacts li {
+    margin-top: 2%;
+    list-style: none;
+}
 
 
 
 
+/*---------------------------Google Maps for Contact------------------------*/
 
+ #map-canvas {
+        width: 500px;
+        height: 400px;
+      }
 
 
 
