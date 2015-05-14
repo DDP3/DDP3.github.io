@@ -6,9 +6,7 @@ function submitForm(event) {
     favoriteCookie: form.cookieInput.value,
   }
   var cookieText = "<p>Your favorite kind of cookie is " + cookie.favoriteCookie + ".</p>";
-  var pet = {
-    ownedPets: form.petInput.______,
-  }
+
   
 }
 
