@@ -6,8 +6,10 @@ function submitForm(event) {
     favoriteCookie: form.cookieInput.value,
   }
   var cookieText = "<p>Your favorite kind of cookie is " + cookie.favoriteCookie + ".</p>";
-
+  
+  
+  document.getElementById("cookieAnswer").innerHTML = cookieText;
   
 }
 
-document.getElementById("cookieAnswer").innerHTML = cookieText;
+
