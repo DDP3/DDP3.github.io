@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<title>JavaScrypt Project</title>
-		<link rel="stylesheet" type="text/css" href="rps.css">
-		
+		<title>hapteck</title>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="../grid.css">
+		<link rel="icon" type="image/png" href="../img/hapteckLogoWatermark.png">
 	</head>
-	<body>
-		<div id="header">
-			<div class="borderHeader">
-				<h1>rock paper scissors</h1>
-			</div>
-		</div>
-		<img onClick="chooseRock()" src="http://www.pdac.ca/images/default-source/mining-matters/rock-quartzite.jpg">
-		<img onClick="choosePaper()" src="http://www.wesellcoffee.com/media/RED%20FOOD%20TRAY.jpg">
-		<img onClick="chooseScissors()" src="http://www.charbase.com/images/glyph/9986">
-		<div>
-			<p id="theWinner"></p>
-		</div>
 	
-	<script src="rps.js"></script>
+	<body>
+		<div class="container">
+			<div class="grid_12">
+<!-- header -->
+				<div>
+					<img src="../img/hapteckHeader.png">
+				</div>
+<!-- navigation -->
+				<div class="grid_12" id="nav_div">
+					<div class="grid_3"><a href="../index.html">Main</a></div>
+					<div class="grid_3"><a href="../blog.html">Blog</a></div>
+					<div class="grid_3"><a href="../journal.html">Journal</a></div>
+					<div class="grid_3 sub_nav_trigger">
+						<a href="../other.html">Other
+							<div class="grid_3 sub_nav sub_nav_third"><a href="../about.html">About</a></div>
+							<div class="grid_3 sub_nav sub_nav_second"><a href="form.html">Form</a></div>
+							<div class="grid_3 sub_nav sub_nav_first"><a href="rps.html">Game</a></div>
+						</a>
+					</div>
+				</div>
+			</div>
+<!-- main -->
+			<div class="grid_12">
+				<img onClick="chooseRock()" src="http://www.pdac.ca/images/default-source/mining-matters/rock-quartzite.jpg">
+				<img onClick="choosePaper()" src="http://www.wesellcoffee.com/media/RED%20FOOD%20TRAY.jpg">
+				<img onClick="chooseScissors()" src="http://www.charbase.com/images/glyph/9986">
+				<div>
+				<p id="theWinner"></p>
+			</div>
+	
+			<script src="rps.js"></script>
+			
+			<hr>
+			<footer>Copyright &copy 2015 Hapteck. All Rights Reserved.</footer>
+		</div>
 	</body>
 </html>

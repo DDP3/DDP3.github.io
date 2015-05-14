@@ -76,4 +76,33 @@ a {
 #nav_div a:visited {
 	text-decoration: none;
 }
+
+#nav_div div a div a {
+	display: none;
+	visibility: hidden;
+}
+
+.sub_nav {
+	padding: 0;
+	opacity: 0;
+	display: none;
+	visibility: hidden;
+	position: absolute;
+	background-color: #6340a4;
+}
+
+.sub_nav_trigger:hover .sub_nav {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+.sub_nav_second {
+	padding-top: 37px;
+}
+
+.sub_nav_third {
+	padding-top: 74px;
+}
+
 }
