@@ -9,11 +9,11 @@ function submitForm(event) {
   document.getElementById("cookieAnswer").innerHTML = cookieText;
   
   var pet = {
-    dog: form.dogCheck.value,
-    cat: form.catCheck.value,
-    hamster: form.hamsterCheck.value,
-    rabbit: form.rabbitCheck.value,
-    other: form.otherCheck.value,
+    dog: form.dogCheck.checked,
+    cat: form.catCheck.checked,
+    hamster: form.hamsterCheck.checked,
+    rabbit: form.rabbitCheck.checked,
+    other: form.otherCheck.checked,
   }
   var petText = "<p>The pets that you own are " + pet.dog + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
