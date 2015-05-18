@@ -15,7 +15,14 @@ function submitForm(event) {
     rabbit: form.rabbitCheck.checked,
     other: form.otherCheck.checked,
   }
-  var petText = "<p>The pets that you own are " + pet.dog + ".</p>";
+  
+  if (form.dogCheck.checked) {
+    dogAnswer = "dog";
+  }
+  {
+    
+  }
+  var petText = "<p>The pets that you own are: " + dogAnswer + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
 }
 
