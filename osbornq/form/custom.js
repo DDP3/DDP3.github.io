@@ -20,29 +20,45 @@ function submitForm(event) {
   if (form.dogCheck.checked) {
     var dogAnswer = "dog";
   }
+  else {
+    var dogAnswer = "";
+  }
+  
   if (form.catCheck.checked){
     var catAnswer = "cat";
   }
+  else {
+    var catAnswer = "";
+  }
+  
   if (form.hamsterCheck.checked){
     var hamAnswer = "hamster";
   }
+  else {
+    var hamAnswer = "";
+  }
+  
   if (form.rabbitCheck.checked){
     var rabAnswer = "rabbit";
   }
+  else {
+    var rabAnswer = "";
+  }
+  
   if (form.turtleCheck.checked){
     var turAnswer = "turtle";
   }
+  else {
+    var turAnswer = "";
+  }
+  
   if (form.otherCheck.checked){
     var otherAnswer = {
     theOther: form.otherInput.value,
    }
   }
   else {
-    var dogAnswer = "";
-    var catAnswer = "";
-    var hamAnswer = "";
-    var rabAnswer = "";
-    var turAnswer = "";
+    var otherAnswer = "";
   }
   var petText = "<p>The pets that you own are: " + dogAnswer + ", " + catAnswer + ", "  + hamAnswer + ", "  + rabAnswer + ", "  + turAnswer + ", "  + otherAnswer.theOther + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
