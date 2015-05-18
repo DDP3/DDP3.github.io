@@ -8,45 +8,36 @@ function submitForm(event) {
   var cookieText = "<p>Your favorite kind of cookie is " + cookie.favoriteCookie + ".</p>";
   document.getElementById("cookieAnswer").innerHTML = cookieText;
   
-  var pet = {
-    dog: form.dogCheck.checked,
-    cat: form.catCheck.checked,
-    hamster: form.hamsterCheck.checked,
-    rabbit: form.rabbitCheck.checked,
-    turtle: form.turtleCheck.checked,
-    other: form.otherCheck.checked,
-  }
-  
   if (form.dogCheck.checked) {
-    var dogAnswer = "dog";
+    var dogAnswer = "dog, ";
   }
   else {
     var dogAnswer = "";
   }
   
   if (form.catCheck.checked){
-    var catAnswer = "cat";
+    var catAnswer = "cat, ";
   }
   else {
     var catAnswer = "";
   }
   
   if (form.hamsterCheck.checked){
-    var hamAnswer = "hamster";
+    var hamAnswer = "hamster, ";
   }
   else {
     var hamAnswer = "";
   }
   
   if (form.rabbitCheck.checked){
-    var rabAnswer = "rabbit";
+    var rabAnswer = "rabbit, ";
   }
   else {
     var rabAnswer = "";
   }
   
   if (form.turtleCheck.checked){
-    var turAnswer = "turtle";
+    var turAnswer = "turtle, ";
   }
   else {
     var turAnswer = "";
@@ -60,7 +51,7 @@ function submitForm(event) {
   else {
     var otherAnswer = "";
   }
-  var petText = "<p>The pets that you own are: " + dogAnswer + ", " + catAnswer + ", "  + hamAnswer + ", "  + rabAnswer + ", "  + turAnswer + ", "  + otherAnswer.theOther + ".</p>";
+  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer +  hamAnswer + rabAnswer + turAnswer + otherAnswer.theOther + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
 }
 
