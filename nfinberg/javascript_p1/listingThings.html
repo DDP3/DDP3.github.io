@@ -52,14 +52,15 @@
 				</nav>
 			</div>
 		</div>
-		<div id="Decision">
-			<h3>Decision to make: <button id="decider" class="btn btn-primary" onclick="DeciderFunction()">Click to Enter a Decision</button></h5>
+		<div class="row">
+			<div class="col-md-12 text-center" id="Decision">
+				<h3>Decision to make: <button id="decider" class="btn btn-primary" onclick="DeciderFunction()">Click to Enter a Decision</button></h5>
 
 				<p id="writenDecision"></p>
 			</div>
-			
-
-			<div id="ProsList">
+		</div>	
+		<div class="row">
+			<div class="col-md-6 text-center" id="ProsList">
 				<h4>Pros: <button id="pros" class="btn btn-primary" onclick="ProFunction()">Click to Enter Pros</button></h4>
 
 				<ol id="pList">
@@ -67,14 +68,14 @@
 				</ol>
 			</div>
 			
-			<div id="ConsList">
+			<div class="col-md-6 text-center" id="ConsList">
 				<h4>Cons: <button id="cons" class="btn btn-primary" onclick="ConFunction()">Click to Enter Cons</button></h4>
 
 				<ol id="cList">
 
 				</ol>
 			</div>
-
+		</div>
 			<script type="text/javascript" src="js/scripts.js"></script>
 
 			<button onclick="PictureFunction()" class="btn btn-primary" id="pictureButton">Click for a Picture</button>	
