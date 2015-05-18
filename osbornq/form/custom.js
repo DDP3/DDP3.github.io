@@ -19,10 +19,21 @@ function submitForm(event) {
   if (form.dogCheck.checked) {
     var dogAnswer = "dog";
   }
-  {
-    
+  if (form.catCheck.checked){
+    var catAnswer = "cat";
   }
-  var petText = "<p>The pets that you own are: " + dogAnswer + ".</p>";
+  if (form.hamsterCheck.checked){
+    var hamAnswer = "hamster";
+  }
+  if (form.rabbitCheck.checked){
+    var rabAnswer = "rabbit";
+  }
+  if (form.otherCheck.checked){
+    var otherAnswer = {
+    theOther: form.otherInput.value,
+   }
+  }
+  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer + hamAnswer + rabAnswer + otherAnswer.theOther + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
 }
 
