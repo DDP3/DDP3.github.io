@@ -13,6 +13,7 @@ function submitForm(event) {
     cat: form.catCheck.checked,
     hamster: form.hamsterCheck.checked,
     rabbit: form.rabbitCheck.checked,
+    turtle: form.turtleCheck.checked,
     other: form.otherCheck.checked,
   }
   
@@ -28,12 +29,15 @@ function submitForm(event) {
   if (form.rabbitCheck.checked){
     var rabAnswer = "rabbit";
   }
+  if (form.turtleCheck.checked){
+    var turAnswer = "turtle";
+  }
   if (form.otherCheck.checked){
     var otherAnswer = {
     theOther: form.otherInput.value,
    }
   }
-  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer + hamAnswer + rabAnswer + otherAnswer.theOther + ".</p>";
+  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer + hamAnswer + rabAnswer + turAnswer + otherAnswer.theOther + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
 }
 
