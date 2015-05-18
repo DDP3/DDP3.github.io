@@ -44,14 +44,15 @@ function submitForm(event) {
   }
   
   if (form.otherCheck.checked){
-    var otherAnswer = {
+    var otherState = {
     theOther: form.otherInput.value,
    }
+   var otherAnswer = otherState.theOther;
   }
   else {
-    var otherAnswer = "";
+   var otherAnswer = "";
   }
-  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer +  hamAnswer + rabAnswer + turAnswer + otherAnswer.theOther + ".</p>";
+  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer +  hamAnswer + rabAnswer + turAnswer + otherAnswer + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
 }
 
