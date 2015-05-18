@@ -38,7 +38,11 @@ function submitForm(event) {
    }
   }
   else {
-    
+    var dogAnswer = "";
+    var catAnswer = "";
+    var hamAnswer = "";
+    var rabAnswer = "";
+    var turAnswer = "";
   }
   var petText = "<p>The pets that you own are: " + dogAnswer + ", " + catAnswer + ", "  + hamAnswer + ", "  + rabAnswer + ", "  + turAnswer + ", "  + otherAnswer.theOther + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
