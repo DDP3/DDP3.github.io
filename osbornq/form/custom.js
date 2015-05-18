@@ -38,7 +38,7 @@ function submitForm(event) {
    }
   }
   else {
-    default;
+    
   }
   var petText = "<p>The pets that you own are: " + dogAnswer + ", " + catAnswer + ", "  + hamAnswer + ", "  + rabAnswer + ", "  + turAnswer + ", "  + otherAnswer.theOther + ".</p>";
   document.getElementById("petAnswer").innerHTML = petText;
