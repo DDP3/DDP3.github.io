@@ -24,25 +24,30 @@
 				<button type="submit" class="btn btn-primary">Transfer cash</button>
 			</form>
 		</div>
-		<div class="col-md-4 text-center">
-			<h4>Do you have a credit card?</h4>
+		<div class="col-md-4">
+			<h4 class="text-center">What Credit Cards Do You Have?</h4>
 			<ul style="list-style: none;">
-				<li>
-					<div class="radio">
-						<label>
-							<input type="radio" value="">
-							Yes
-						</label>
-					</div>
-				</li>
-				<li>
-					<div class="radio">
-						<label>
-							<input type="radio" value="">
-							No
-						</label>
-					</div>
-				</li>
+				<div class="checkbox">
+				        <label>
+				          <input type="checkbox" name="visaCheck"> VISA
+				        </label>
+				        <br>
+				        <label>
+				          <input type="checkbox" name="mcCheck"> Master Card
+				        </label>
+				        <br>
+				        <label>
+				          <input type="checkbox" name="aeCheck"> American Express
+				        </label>
+				        <br>
+				        <label>
+				          <input type="checkbox" name="ubCheck"> US Bank
+				        </label>
+				        <br>
+				        <label>
+				          <input type="checkbox" name="otherCheck"> Other: <input name="otherInput" type="text">
+				        </label>
+				</div>
 			</ul>
 		</div>
 		<div class="col-md-4 text-center">
