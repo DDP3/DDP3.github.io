@@ -17,7 +17,7 @@ function submitForm(event) {
   }
   
   if (form.dogCheck.checked) {
-    dogAnswer = "dog";
+    var dogAnswer = "dog";
   }
   {
     
