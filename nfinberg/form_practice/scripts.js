@@ -46,6 +46,6 @@ function submitForm(event) {
   else {
    var otherAnswer = "";
   }
-  var cardText = "<p>You have Credit Cards from: " + visaAnswer + mcAnswer +  aeAnswer + ubAnswer + otherAnswer + ".</p>";
+  var cardText = "<h3>You have Credit Cards from: " + visaAnswer + mcAnswer +  aeAnswer + ubAnswer + otherAnswer + ".</h3>";
   document.getElementById("cardAnswer").innerHTML = cardText;
 }		
