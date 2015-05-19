@@ -4,7 +4,7 @@ function depositForm() {
 
 function sellInformation() {
 			document.getElementById("informationSold").innerHTML = "<p>Thank you for submitting your information to all of the major crime organizations.</p>";
-};
+}
 		
 var form = document.forms.cardForm;
 form.addEventListener("submit",submitForm,false);
@@ -50,4 +50,4 @@ function submitForm(event) {
   }
   var cardText = "<h3>You have Credit Cards from: " + visaAnswer + mcAnswer +  aeAnswer + ubAnswer + otherAnswer + ".</h3>";
   document.getElementById("cardAnswer").innerHTML = cardText;
-};		
+}		
