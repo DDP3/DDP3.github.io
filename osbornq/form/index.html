@@ -22,49 +22,56 @@
     <h1 class="text-center">Forms about Things</h1>
     
     <form name="theForm" action="action" id="myForm">
-      <div class="form-group">
+      <div class="form-group col-md-4">
         <h3>What's your favorite kind of cookie?</h3>
         <input name="cookieInput" type="text">
       </div>
-      <h3>What kind of pets do you have?</h3>
-      <div class="checkbox">
-        
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="dogCheck"> Dog
-          </label>
-        </div>
-        
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="catCheck"> Cat
-          </label>
-        </div>
-        
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="hamsterCheck"> Hamster
-          </label>
-        </div>
-        
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="rabbitCheck"> Rabbit
-          </label>
-        </div>
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="turtleCheck"> Turtle
-          </label>
-        </div>
-        <div class="form-group">
-          <label>
-            <input type="checkbox" name="otherCheck"> Other: <input name="otherInput" type="text">
-          </label>
+      
+      <div class="col-md-4">
+        <input name="submit" class="btn btn-info" type="submit" onclick="submitForm()" value="Submit">
+      </div>
+      
+      <div class="col-md-4">
+        <h3>What kind of pets do you have?</h3>
+        <div class="checkbox">
+          
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="dogCheck"> Dog
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="catCheck"> Cat
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="hamsterCheck"> Hamster
+            </label>
+          </div>
+          
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="rabbitCheck"> Rabbit
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="turtleCheck"> Turtle
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="otherCheck"> Other: <input name="otherInput" type="text">
+            </label>
+          </div>
         </div>
       </div>
       
-      <input name="submit" class="btn btn-info" type="submit" onclick="submitForm()" value="Submit">
+      
     
     </form>
     
