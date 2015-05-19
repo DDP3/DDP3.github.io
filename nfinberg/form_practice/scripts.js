@@ -1,5 +1,6 @@
 function depositForm() {
-	var person = prompt("What is your routing number?", "05050505050505");
+	var routingNumber = prompt("What is your routing number?", "05050505050505");
+	console.log(routingNumber);
     }
 
 function sellInformation() {
