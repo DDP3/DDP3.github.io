@@ -1,10 +1,13 @@
+
+
 function sellInformation() {
 			document.getElementById("informationSold").innerHTML = "<p>Thank you for submitting your information to all of the major crime organizations.</p>";
 		};
+		
 var form = document.forms.cardForm;
 form.addEventListener("submit",submitForm,false);
 function submitForm(event) {
-  event.preventDefault();
+  
   
   if (form.visaCheck.checked) {
     var visaAnswer = "VISA";
