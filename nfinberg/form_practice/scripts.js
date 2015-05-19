@@ -1,49 +1,37 @@
 function sellInformation() {
 			document.getElementById("informationSold").innerHTML = "<p>Thank you for submitting your information to all of the major crime organizations.</p>";
 		};
-var form = document.forms.theForm;
+var form = document.forms.cardForm;
 form.addEventListener("submit",submitForm,false);
 function submitForm(event) {
   event.preventDefault();
-  var cookie = {
-    favoriteCookie: form.cookieInput.value,
-  }
-  var cookieText = "<p>Your favorite kind of cookie is " + cookie.favoriteCookie + ".</p>";
-  document.getElementById("cookieAnswer").innerHTML = cookieText;
   
-  if (form.dogCheck.checked) {
-    var dogAnswer = "dog";
+  if (form.visaCheck.checked) {
+    var visaAnswer = "VISA";
   }
   else {
-    var dogAnswer = "";
+    var visaAnswer = "";
   }
   
-  if (form.catCheck.checked){
-    var catAnswer = ", cat";
+  if (form.mcCheck.checked){
+    var mcAnswer = ", Master Card";
   }
   else {
-    var catAnswer = "";
+    var mcAnswer = "";
   }
   
-  if (form.hamsterCheck.checked){
-    var hamAnswer = ", hamster";
+  if (form.aeCheck.checked){
+    var aeAnswer = ", American Express";
   }
   else {
-    var hamAnswer = "";
+    var aeAnswer = "";
   }
   
-  if (form.rabbitCheck.checked){
-    var rabAnswer = ", rabbit";
+  if (form.ubCheck.checked){
+    var ubAnswer = ", US Bank";
   }
   else {
-    var rabAnswer = "";
-  }
-  
-  if (form.turtleCheck.checked){
-    var turAnswer = ", turtle";
-  }
-  else {
-    var turAnswer = "";
+    var ubAnswer = "";
   }
   
   if (form.otherCheck.checked){
@@ -55,6 +43,6 @@ function submitForm(event) {
   else {
    var otherAnswer = "";
   }
-  var petText = "<p>The pets that you own are: " + dogAnswer + catAnswer +  hamAnswer + rabAnswer + turAnswer + otherAnswer + ".</p>";
-  document.getElementById("petAnswer").innerHTML = petText;
+  var cardText = "<p>You have Credit Cards from: " + visaAnswer + mcAnswer +  aeAnswer + ubAnswer + otherAnswer + ".</p>";
+  document.getElementById("cardAnswer").innerHTML = cardText;
 }		
