@@ -1,7 +1,6 @@
 function depositForm() {
 	var person = prompt("What is your routing number?", "05050505050505");
     }
-};
 
 function sellInformation() {
 			document.getElementById("informationSold").innerHTML = "<p>Thank you for submitting your information to all of the major crime organizations.</p>";
