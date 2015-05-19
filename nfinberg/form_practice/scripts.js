@@ -10,28 +10,28 @@ function submitForm(event) {
   
   
   if (form.visaCheck.checked) {
-    var visaAnswer = "VISA";
+    var visaAnswer = "VISA,";
   }
   else {
     var visaAnswer = "";
   }
   
   if (form.mcCheck.checked){
-    var mcAnswer = ", Master Card";
+    var mcAnswer = " Master Card,";
   }
   else {
     var mcAnswer = "";
   }
   
   if (form.aeCheck.checked){
-    var aeAnswer = ", American Express";
+    var aeAnswer = " American Express,";
   }
   else {
     var aeAnswer = "";
   }
   
   if (form.ubCheck.checked){
-    var ubAnswer = ", US Bank";
+    var ubAnswer = " US Bank,";
   }
   else {
     var ubAnswer = "";
@@ -41,7 +41,7 @@ function submitForm(event) {
     var otherState = {
     theOther: form.otherInput.value,
    }
-   var otherAnswer = ", " + otherState.theOther;
+   var otherAnswer = otherState.theOther;
   }
   else {
    var otherAnswer = "";
