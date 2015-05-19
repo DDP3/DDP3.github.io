@@ -27,33 +27,42 @@
 		<div class="col-md-4">
 			<h4 class="text-center">What Credit Cards Do You Have?</h4>
 			<ul style="list-style: none;">
-				<div class="checkbox">
-				        <label>
-				          <input type="checkbox" name="visaCheck"> VISA
-				        </label>
-				        <br>
-				        <label>
-				          <input type="checkbox" name="mcCheck"> Master Card
-				        </label>
-				        <br>
-				        <label>
-				          <input type="checkbox" name="aeCheck"> American Express
-				        </label>
-				        <br>
-				        <label>
-				          <input type="checkbox" name="ubCheck"> US Bank
-				        </label>
-				        <br>
-				        <label>
-				          <input type="checkbox" name="otherCheck"> Other: <input name="otherInput" type="text">
-				        </label>
-				</div>
+				<form name="cardForm" action="action" id="creditCards">
+					<div class="checkbox">
+					        <label>
+					          <input type="checkbox" onclick="submitForm()" name="visaCheck"> VISA
+					        </label>
+					        <br>
+					        <label>
+					          <input type="checkbox" onclick="submitForm()" name="mcCheck"> Master Card
+					        </label>
+					        <br>
+					        <label>
+					          <input type="checkbox" onclick="submitForm()" name="aeCheck"> American Express
+					        </label>
+					        <br>
+					        <label>
+					          <input type="checkbox" onclick="submitForm()" name="ubCheck"> US Bank
+					        </label>
+					        <br>
+					        <label>
+					          <input type="checkbox" onclick="submitForm()" name="otherCheck"> Other: <input name="otherInput" type="text">
+					        </label>
+					</div>
+				</form>	
 			</ul>
 		</div>
 		<div class="col-md-4 text-center">
 			<h4>Selling your Infomation</h4>
 			<button class="btn btn-default" onclick="sellInformation()">Click to Submit</button>
 		</div> 
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div id="cardAnswer">
+				
+			</div>
+		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12 text-center">
