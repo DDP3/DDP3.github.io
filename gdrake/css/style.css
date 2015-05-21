@@ -1,0 +1,116 @@
+/*stylin' the page*/
+
+body{
+	background-color:#D89C6A;
+}
+
+.container{
+	background-color:#FFB06F;
+}
+
+/*stylin' the title*/
+
+#topbar{
+	background-color:#C8600A;
+	padding-top:5px;
+	margin-bottom:0px;
+	border-radius:0px;
+}
+
+/*stylin' the navigator*/
+
+#metaNav {
+	overflow:hidden;
+	border: solid black 2px;
+	background-color: #D86A6A
+}
+
+#pageIndicator{
+	background-color: #D86A6A
+}
+
+#navigator{
+	padding-top:10px;
+	padding-left:0px;
+	padding-bottom:100%;
+	margin-bottom:-100%;
+	font-size:22px;
+	background-image:none;
+	background-color:#AE3838;
+	text-shadow:255, 255, 255, 0;
+	border:0px;
+}
+
+#navigator a{
+	color:black;
+}
+
+#navigator a:hover{
+	font-size:27px;
+	color:blue;
+}
+
+/*page specific stylin'*/
+
+.journalEntry{
+	margin-left:2px;
+	margin-right:1px;
+}
+
+#pictureHolder img{
+	padding-left:0px;
+	padding-right:0px;
+	margin-top:3px;
+}
+
+#about p{
+	margin-top:2px;
+}
+
+#arena img{
+	width:100%;
+}
+
+#arena {
+	/*margin-bottom:10px;*/
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#7C8AA8;
+}
+
+#metaArena{
+	margin-bottom:0px;
+}
+
+#stats{
+	background-color:#AF692E;
+}
+
+#results{
+	margin-top:0px;
+	/*margin-bottom:10px;*/
+	padding-bottom:15px;
+	font-size:18px;
+}
+
+#overallWinner img{
+	max-height:100px;
+}
+
+#scoreboard{
+	font-size:20px;
+}
+
+#agentBio{
+	width:100%;
+}
+
+#formHolder {
+	margin-top:10px;
+}
+
+#results img{
+	height:22px;
+	width:22px;
+}
+

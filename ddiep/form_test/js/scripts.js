@@ -56,16 +56,15 @@ function displayPerson(event) {
 
 	//This is all the html. You can see how I'm calling all the data. I'm just splicing it into the string.
 	//There are better ways to do this with Object Oriented Code but that's more complex than we need it to be
-	//and I'm also coding this at 11:30 at night.
 
 	var html = "<p>My name is " + Person.name + ".</p><p>My secret data is " + Person.secretData + ".</p><p>Here's a bio about me... " + Person.bio + "</p><p>My gender is " + Person.gender + ".</p><p>I have these limbs: " + Person.limbs.join(", ") + ".</p><p>I want this car: " + Person.car + ".</p>";
 
 	//Finally, set the content-display div to have the data. 
-	//This uses some jquery because it's easier but you are free to use the other archaic method that you've been using before.
+	//This uses some jquery because it's easier but you are free to use what you've been using before.
 
 	$("#content-display").html(html);
 
-	//Returning you to the top of the page. An little extra goody.
+	//Returning you to the top of the page.
 	
 	$('html,body').animate({ scrollTop: 0 }, 'fast');
 }

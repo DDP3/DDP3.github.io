@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Breakfast</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="row jumbotron" id="topbar">
+			<h1>Non-Breakfast Internet</h1>
+			<h3>Your source for the best</h3>
+	</div>
+	<div class="row" id="metaNav">
+		<nav class="navbar navbar-default col-xs-12 col-sm-8" id="navigator">
+	      			<ul class="nav navbar-nav col-xs-12">
+						<li class="col-xs-12 col-sm-3"><a href="index.html">Home</a></li>
+						<li class="col-xs-12 col-sm-3"><a href="rps.html">RPS</a></li>
+						<li class="col-xs-12 col-sm-3"><a href="journal.html">Journal</a></li>
+						<li class="col-xs-12 col-sm-3"><a href="form.html">Application</a></li>
+	     			 </ul>
+		</nav>
+		<div id="pageIndicator" class="col-xs-12 col-sm-4">
+			<h2>Secret Agent Application</h2>
+		</div>
+	</div>
+<!--form specific -->
+	<div id="formHolder" class="row">
+		<form name="agentForm" action="action" id="agentForm" class="col-xs-12">
+			<div class="form-group col-xs-12 col-sm-4">
+				<label for="nameInput">What is your name?</label>
+				<input type="name" name="name" class="form-control" id="nameInput" placeholder="Name goes here">
+			</div>
+			<div class="form-group col-xs-12 col-sm-8">
+				<label for="emailInput">Give us an e-mail address where we can contact you.</label>
+				<input type="email" name="email" class="form-control" id="emailInput" placeholder="E-mail goes here">
+			</div>
+			<div class="form-group col-xs-12 col-sm-4">
+				<label for="checkbox">Check all organizations you have worked at.</label>
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="workHistory" value="CIA">
+				    Central Intelligence Agency
+				  </label>
+				</div>
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="workHistory" value="FBI">
+				    Federal Bureau of Investigations
+				  </label>
+				</div>
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="workHistory" value="NSA">
+				    National Security Agency
+				  </label>
+				</div>
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="workHistory" value="Interpol">
+				    Interpol
+				  </label>
+				</div>
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="workHistory" value="Illuminati">
+				    Illuminati
+				  </label>
+				</div>
+				<div class="checkbox">
+				  <label>
+				    <input type="checkbox" name="workHistory" value="Quiznos">
+				    Quiznos
+				  </label>
+				</div>
+			</div>
+			<div class="form-group col-xs-6 col-sm-4">
+				<label for="agentID">If you already have an agent ID, type it in here.</label>
+				<input type="password" name="agentID" class="form-control" id="agentID">
+			</div>
+			<div class="form-group col-xs-6 col-sm-4">
+				<label for="radio">I consider myself...</label>
+				<div class="radio">
+  					<label>
+    					<input type="radio" name="agentType" id="loneWolf" value="Lone Wolf" checked>A "lone wolf" type
+  					</label>
+  				</div>
+  				<div class="radio">
+  					<label>
+  						<input type="radio" name="agentType" id="teamPlayer" value="Team Player">A 
+  						team player
+  					</label>
+  				</div>
+  				<div class="radio">
+  					<label>
+  						<input type="radio" name="agentType" id="leader" value="Strong Leader">A leader of men and beasts
+  					</label>
+  				</div>
+			</div>
+			<div class="form-group col-xs-12">
+				<label for="bio">Tell us a little about yourself.</label>
+				<textarea class="form-control" name="bio" rows="4" name="agentBio" id="agentBio"></textarea>
+			</div>
+			<div class="form-group col-xs-12 col-sm-4 col-xs-offset-4 col-sm-offset-4">
+				<input type="submit" class="btn" value="Review and Submit Applicaton" id="rsubmit"/>
+			</div>
+		</form>
+	</div>
+	<div id="applicationOutput">
+	</div>
+
+
+
+	<div class="row" id="footer">
+			<hr>
+			<p class="col-sm-offset-9 col-xs-3">Site created by Griffin</p>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/npm.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+
+</html>
