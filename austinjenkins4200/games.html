@@ -71,32 +71,47 @@
             <div class="container-fluid">
                 <div class="row">
                     <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
-                    <div class="col-lg-12">
-                        <script src="js/javascript.js"></script>
-                            <div id="game">
-                              <div id="userSelection">
-                                <h2 class="game1">Rock, Paper or Scissors</h2>
-                                   <h2 class="game1">Select your choice</h2>
-                                     <ul>
-                                    <li class="selection" id="stone">
-                                      <img src="img/stone.png" alt="Stone" onclick="playWith('stone')"/>
-                                    </li>
-                                    <li class="selection" id="paper">
-                                      <img src="img/paper.png" alt="Paper" onclick="playWith('paper')"/>   
-                                    </li>
-                                    <li class="selection" id="scissor">
-                                      <img src="img/scissor.png" alt="Scisor" onclick="playWith('scissor')"/>
-                                    </li>
-                                     </ul>
-                                     <button onclick="playGame()">Play</button>
-                              </div>
-                              <div id="result"></div>
-                            </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                       
+                           
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <h1>RPS</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <center>
+                 <div id="game">
+                    <div id="userSelection">
+                            <ul>
+                                <li class="selection" id="stone">
+                                    <img src="img/stone.png" alt="Stone" onclick="playWith('stone')"/>
+                                </li>
+                                <li class="selection" id="paper">
+                                    <img src="img/paper.png" alt="Paper" onclick="playWith('paper')"/>   
+                                </li>
+                                <li class="selection" id="scissor">
+                                    <img src="img/scissor.png" alt="Scisor" onclick="playWith('scissor')"/>
+                                </li>
+                            </ul>
+
+                            <center>
+                                <button onclick="playGame()" type="button" class="btn btn-primary" id="gameButton">Primary</button>
+                            </center>
+                    </div>
+                    <div id="result"></div>
+                </center>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-
-
+ <script src="js/javascript.js"></script>
 
 
 

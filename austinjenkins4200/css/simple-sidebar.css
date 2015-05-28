@@ -214,6 +214,10 @@ hr {
 
 }
 
+.backgroundImage img {
+    height: 100%;
+}
+
 .cover {
     font-size: 4.5em;
     color: white;
@@ -287,7 +291,6 @@ hr {
     top:auto;
 }
 #image_slider{
-
     position: relative;
     height: auto;
     list-style: none;
@@ -321,7 +324,7 @@ hr {
 }
 
 #image_slider img {
-    height: 280px;
+    height: 300px;
     width: 760px;
 }
 /*-------Pictures button-----------*/
@@ -398,22 +401,19 @@ hr {
 /*-----------Rock, Paper or Scissors----------------*/
 
 #game{
-    background-color: black;
-    border-radius: 15px;
-    height: 35em;
-    width: 60em;
+    height: 25em;
+    width: 15em;
     color: white;
-    margin-top: 10%;
-    position: absolute;
-    left: 23%;
+}
 
+#game img {
+    height: 10em;
 }
 
 #userSelection
 {
     text-align: center;
     padding: 30px;
-    margin: 10px; 
 }
 
 #result
@@ -421,32 +421,25 @@ hr {
     text-align: center;
     padding: 20px;
     font-size: 1.2em;
-    float: right;
 }
 
 .selection
-{
-    float: left; 
+{ 
     list-style: none;
     border: 5px #F8F8F8  solid;
-    border-radius: 15px;
-    margin: 30px; 
+    border-radius: 15px; 
+    margin-top: 10%;
+    margin-left: -50px;
 }
 
 
-.selection img
+#gameButton
 {
-    width: 70px;
-    padding: 10px;
-}
-
-button
-{
-    background-color: grey;
     color: white;
-    width: 12%;
+    height: 12%;
     border-radius: 10px;
     font-size: 100%;
+    margin: 0 auto;
 }
 
 .game1 {
@@ -456,21 +449,21 @@ button
 
 /*-------------------------------Coverpage Buttons---------------------------*/
 
-.facebookButton img {
+#facebookButton img {
     height: 2em;
     width: 40px;
 
 
 }
 
-.googleButton img {
+#googleButton img {
     height: 2em;
     width: 40px;
 
 
 }
 
-.twitterButton img {
+#twitterButton img {
     height: 2em;
     width: 40px; 
 
@@ -492,7 +485,8 @@ button
  /*--------------------------Random Facts Page-------------------------------*/
 
  .randomFacts {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 .randomFacts ul {
@@ -503,15 +497,117 @@ button
     margin-top: 2px;
 }
 
+.randomFacts li {
+    margin-top: 2%;
+    list-style: none;  
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: black;
+    font-size: 20px;
+    width: 200px;
+    height: 150px;
+}
 
-
-
-
-
-
-.map {
-    margin-left: 20%;
+.randomFacts li:hover {
+    color: white;
 }
 
 
 
+/*---------------------------Contact Page------------------------*/
+
+ #map-canvas {
+        width: 500px;
+        height: 400px;
+      }
+
+.map {
+    margin-top: 5%;
+}
+
+form {
+    border: solid grey 2px;
+    margin: 0 auto;
+    width: 450px;
+    padding-left: 40px;
+    padding-bottom:20px;
+    padding-top: 20px;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+}
+
+#submitButton {
+    width: 120px;
+    border-radius: 6px;
+    text-align: right;
+    text-align: center;
+    color: black;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 250px;
+    border: 1px solid #999f;
+    color:black;
+}
+
+.nameStuff {
+    text-align: center;
+    list-style: none;
+    margin-top: 4%;
+    
+}
+
+.nameStuff li {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.backgroundImageContact {
+    background-image: url("../img/portland.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.backgroundImageContact img {
+    height: 100%;
+}
+
+.factsCss {
+    float: right;
+}
+
+#favorites img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.backgroundImage1  {
+    background-image: url("../img/desert.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.homeP {
+    text-align: center;
+    margin-left: 5%;
+}
