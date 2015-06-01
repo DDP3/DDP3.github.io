@@ -8,8 +8,9 @@
     <title>Final</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +27,7 @@
       <div class="col-md-12 col-sm-12 col-xs-12">
       </div>
     </div>
-
+    	
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -63,48 +64,47 @@
 
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <h4>About Me</h4>
+        <h1 class="text-center">Rock, Paper, Scissors</h1>
+      </div>
+    </div>
+
+		<div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h4 class="text-center">Pick rock, paper, or scissors to play.</h4>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-12 col-sm-12 col-xs-12">
-        <p>This website is the final project for the Digital Design and Computer Coding class I am taking. For this project we are taking the basics which we have learned this year to create a website, and then applying new features such as bootstrap and forms. We are using bootstrap in an effort to make our websites appear more modern, unlike the other websites we have created this year. Making this website has been difficult, because of the amount of new skills I have had to learn along the way. Figuring out how to apply bootstrap to all of the elements has been confusing at times, but I feel more comfortable with bootstrap now than I did at the beginning of the year.</p>
+        <p class="text-center" id="result"></p>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <p>I am on both the dragon boat team, and the women's golf team at Franklin. Both are spring sports, so in the spring I am incredibly busy. My dragon boat team races at the Rio Tinto Alcan in Vancouver, British Columbia. This past year we have participated at other festivals as well, the Portland Race, and the Ranier Dragon Boat Festival. I am also a part of Franklin's symphonic band, which also serves as the pep band and the marching band.</p>
+		<div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+			 <button type="button" onClick="rockPlayer()">
+        <img src="rock.jpg">
+       </button>
+      </div>
+
+      <div class="col-md-4 col-sm-4 col-xs-12">
+       <button type="button" onClick="paperPlayer()">
+        <img src="paper.jpg">
+       </button>
+      </div>
+
+      <div class="col-md-4 col-sm-4 col-xs-12">
+       <button type="button" onClick="scissorsPlayer()">
+        <img src="scissors.jpg">
+       </button>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <p>I recently realized that koalas are my favorite animal. Over spring break I went to the San Diego Zoo, and the highlight was seeing a koala. I attempted to take pictures of the koalas, but it did not really work, as they were all curled up toward the trees.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 col-sm-12 col-xs-12">
-          <img src="franklin.jpg" alt="franklin" class="img-circle">
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-          <img src="dragonboats.jpg" alt="dragonboats" class="img-circle">
-      </div>
-
-      <div class="col-md-4 col-sm-12 col-xs-12">
-          <img src="koala.jpg" alt="koala" class="img-circle">
-      </div>
-    </div>
-
-  </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    	<!-- Include all compiled plugins (below), or include individual files as needed -->
+		  <script src="js/bootstrap.min.js"></script>
+		  <script src="js/script.js"></script>
+	</div>
   </body>
 </html>
