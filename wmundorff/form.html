@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+
+<!---->
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+	<title>My Form</title>	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/formstyle.css" />
+</head>
+
+<body>
+	<div class="container">	
+      <div class="row" id="navigationBar">
+        <ul class="list-unstyled">
+          <li class="col-xs-12 col-sm-3 col-md-3 text-center"><a href="index.html">Home</a></li>
+          <li class="col-xs-12 col-sm-3 col-md-3 text-center"><a href="rps.html">Game</a></li>
+          <li class="col-xs-12 col-sm-3 col-md-3 text-center"><a href="journal/index.html">Journal</a></li>
+          <li class="col-xs-12 col-sm-3 col-md-3 text-center"><a href="form.html">Survey</a></li>
+        </ul>
+      </div>
+   <hr>
+		<div class="row">
+			<h1 class="text-center">A Survey</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8" id="form_container">
+				<form name="example" action="action" id="example_form" class="form-horizontal">
+					
+					<div class="form-group">
+						<h2>What is your name?</h2>
+						<h4>Type name here:</h4>
+
+						<input type="text" name="yourname" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<h2>What is your favorite color?</h2>
+						<h4>Choose any color you can imagine:</h4>
+
+						<input type="color" name="colorchoice" class="form-control"/>
+					</div>
+
+					<div class="form-group">
+						<h2>Fun Facts</h2>
+						<h4>Tell me something interesting about you:</h4>
+ 						<textarea rows="3" class="form-control" name="fact"></textarea>
+ 					
+ 					</div>
+
+	
+					<div class="row">
+						
+						<div class="form-group col-xs-12 col-sm-6 col-md-6">
+							<h2>Who will win the NBA finals?</h2>
+
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="team" value="Warriors"/> 
+									Warriors
+								</label>
+							</div>
+
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="team" value="Clippers"/> 
+									Clippers
+								</label>
+							</div>
+
+							<div class="radio">
+								<label>
+									<input type="radio" name="team" value="Wizards"/> 
+									Wizards
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="team" value="Cavaliers"/>
+									Cavaliers
+								</label>	
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="team" value="Other"/>
+									Other
+								</label>
+							</div>
+					</div>
+
+	
+						<div class="form-group col-xs-12 col-sm-6 col-md-6">
+							<h2>What is your favorite type of candy?</h2>
+
+							<select name="candy" class="form-control">
+								<option value="Kit-kat">Kit-Kat</option>
+								<option value="Snickers">Snickers</option>
+								<option value="Reese's">Reese's Peanut Butter Cups</option>
+								<option value="M&M's">M&M's</option>
+								<option value="Skittles">Skittles</option>
+							</select>
+
+						</div>
+
+
+					<div class="form-group text-center col-xs-12 col-sm-12 col-md-12">
+						<input type="submit" name="submit" value="Submit" class="btn btn-default"/>
+					</div>
+				</form>
+				<div class="row"><div class="col-xs-12" id="result"></div></div>
+					</div>
+
+
+
+			</div>
+
+
+		</div>
+
+		<div class="col-md-5 col-md-offset-1" id="content-display">
+		</div>
+
+	</div>
+
+</body>
+
+<script type="text/javascript" src="js/formscripts.js"></script>
+
+</html>

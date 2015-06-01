@@ -1,0 +1,59 @@
+#navigationBar li a {
+	text-decoration: none;
+	display: block;
+	background-color: #157098;
+	width: 200px;
+	text-align: center;
+	border: solid black 2px;
+	color: white;
+}
+
+#navigationBar {
+margin: auto;
+height: 46px;
+width: 1000px;
+margin-top: 35px;
+}
+
+#navigationBar li{
+	display: inline;
+	float: left;
+	height: 50px;
+}
+
+
+body {
+	
+	background:url(https://arewethereyeti.files.wordpress.com/2012/01/portland-tabor.jpg) top right no-repeat ;
+	background-attachment: fixed;
+}
+
+.row{
+	text-align: center;
+}
+#paragraph{
+	background-color: white;
+	
+	margin: auto;
+
+}
+h2{
+    font-family: "Copperplate", Times, serif;
+	text-shadow: white 2px 2px;
+}
+
+p{
+	margin: auto;
+
+} 
+
+h1{
+	text-shadow:white 2px 2px;
+	color: #157098;
+}
+
+.filler{
+	padding-bottom:1000px;
+	margin-bottom:-1000px;
+}
+

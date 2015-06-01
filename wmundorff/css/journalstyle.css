@@ -1,0 +1,49 @@
+body{
+background-color: #55605B;
+
+}
+h1{
+
+	color: #FF4A3C;
+
+}
+
+
+.titleTitle {
+	text-align: center;
+}
+
+
+#journalStyling {
+	border: solid black 5px;
+	border-radius: 20px;
+	background-color: #6BA099;
+	padding: 20px;
+	margin: 10px;
+}
+
+#navigationBar li a {
+	text-decoration: none;
+	display: block;
+	background-color: #157098;
+	width: 200px;
+	text-align: center;
+	border: solid black 2px;
+	color: white;
+}
+
+#navigationBar {
+margin: auto;
+height: 46px;
+width: 1000px;
+margin-top: 35px;
+}
+
+#navigationBar li{
+	display: inline;
+	float: left;
+	height: 50px;
+}
+
+
+
