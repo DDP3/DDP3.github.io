@@ -273,7 +273,7 @@ hr {
        -webkit-transition: opacity 1.2s ease-in-out;
       }
 
-/*-----------Picture Slider---------*/
+/*-----------Pictures---------*/
 .container1 {
     width:800px;
     height:400px;
@@ -381,22 +381,6 @@ hr {
     color: white;
 }
 
-/*----------------------Work in progress--------------------------------------------------------*/
-
-.navigation-bar {
-    height: 3em;
-    background-color: black;
-}
-
-.bar li {
-    display: inline;
-    margin-right: 20px;
-}
-
- .right1 {
-    float: right;
- }
-
 
 /*-----------Rock, Paper or Scissors----------------*/
 
@@ -421,6 +405,7 @@ hr {
     text-align: center;
     padding: 20px;
     font-size: 1.2em;
+    color: black;
 }
 
 .selection
@@ -527,6 +512,7 @@ hr {
     margin-top: 5%;
 }
 
+/*--------------Work in progress----------
 form {
     border: solid grey 2px;
     margin: 0 auto;
@@ -562,7 +548,7 @@ input, textarea {
     border: 1px solid #999f;
     color:black;
 }
-
+/*------------------------Names----------------*/
 .nameStuff {
     text-align: center;
     list-style: none;
@@ -610,4 +596,34 @@ input, textarea {
 .homeP {
     text-align: center;
     margin-left: 5%;
+}
+
+
+.backgroundAbout  {
+    background-image: url("../img/ocean.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.backgroundFacts  {
+    background-image: url("../img/facts.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+.about {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#homeP {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
