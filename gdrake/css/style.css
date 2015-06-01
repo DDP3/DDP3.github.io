@@ -63,6 +63,10 @@ body{
 	margin-top:3px;
 }
 
+#pictureHolder img:hover{
+	opacity:0.5;
+}
+
 #about p{
 	margin-top:2px;
 }
