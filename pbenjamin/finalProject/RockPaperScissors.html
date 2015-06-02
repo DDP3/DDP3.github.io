@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type"text/css" href="css/sitestyles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Rock, Paper, Scissors</title>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">	
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="row">
+						<ul class="nav nav-pills">
+							<p class="col-xs-2"></p>
+							<li role="presentation" class="col-xs-2 text-center"><a href="biography.html">About the Author</a></li>
+							<li role="presentation" class="col-xs-2 text-center"><a href="form.html">Questionaire</a></li>
+							<li role="presentation" class="col-xs-2 text-center"><a href="RockPaperScissors.html">Rock, Paper, Scissors</a></li>
+							<li role="presentation" class="col-xs-2 text-center"><a href="journal.html">Journal</a></li>
+							<p class="col-xs-2"></p>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	<br></br>
+
+	<div class="container" id="box">
+		
+		<div class="row">
+			<h1 class="text-center hidden-xs">Play Rock, Paper, Scissors!</h1>
+		</div>
+
+		<div class="row">
+			<h4 class="text-center hidden-sm hidden-md hidden-lg">Play Rock, Paper, Scissors!</h4>
+		</div>
+
+		<div class="row">
+			<h5 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center hidden-sm hidden-md hidden-lg">Click Rock, Paper, or Scissors, then see what the Computer chooses to see if you have won.</h5>
+		</div>
+
+		<div class="row">
+			<h3 class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center hidden-xs">Click Rock, Paper, or Scissors, then see what the Computer chooses to see if you have won.</h3>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><button class="btn btn-primary btn-block" onclick="playerRock()">Rock</button><img class="img-responsive center-block" alt="Responsive image" src="pics\rock.jpg"></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><button class="btn btn-primary btn-block" onclick="playerPaper()">Paper</button><img class="img-responsive center-block" alt="Responsive image" src="pics\paper.jpg"></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><button class="btn btn-primary btn-block" onclick="playerScissors()">Scissors</button><img class="img-responsive center-block" alt="Responsive image" src="pics\scissors.jpg"></div>
+		</div>
+		
+		<div class="row">
+			<p class="col-xs-3 col-sm-4 col-md-4 col-lg-4"></p>
+			<h2 class="col-xs-4 col-sm-2 col-md-2 col-lg-2">Score:</h2>
+			<p class="col-xs-5 col-sm-6 col-md-6 col-lg-6" id="score"></p>
+		</div>
+		
+		<div class="row">
+			<p class="text-center hidden-xs" id="textLarge"></p>
+			<p class="text-center hidden-sm hidden-md hidden-lg" id="textSmall"></p>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="playerPic"></div>
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="computerPic"></div>
+		</div>	
+	</div>
+		
+
+	<!-- // <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+	<script src="js/scripts.js" type="text/javascript"></script>
+</body>
+</html>
