@@ -160,7 +160,7 @@ p {
 
 h1 {
     color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Bree Serif', serif;;
     font-size: 65px;
     font-weight: bold;
     letter-spacing: -1px;
@@ -221,6 +221,7 @@ hr {
 .cover {
     font-size: 4.5em;
     color: white;
+    font-family: 'Lobster', cursive;
 }
 
 .cover1 {
@@ -228,6 +229,7 @@ hr {
     color: white;
     text-align: center;
     margin-top: 4%;
+    font-family: 'Lobster', cursive;
 }
 
 .all {
@@ -273,7 +275,7 @@ hr {
        -webkit-transition: opacity 1.2s ease-in-out;
       }
 
-/*-----------Picture Slider---------*/
+/*-----------Pictures---------*/
 .container1 {
     width:800px;
     height:400px;
@@ -381,22 +383,6 @@ hr {
     color: white;
 }
 
-/*----------------------Work in progress--------------------------------------------------------*/
-
-.navigation-bar {
-    height: 3em;
-    background-color: black;
-}
-
-.bar li {
-    display: inline;
-    margin-right: 20px;
-}
-
- .right1 {
-    float: right;
- }
-
 
 /*-----------Rock, Paper or Scissors----------------*/
 
@@ -421,6 +407,7 @@ hr {
     text-align: center;
     padding: 20px;
     font-size: 1.2em;
+    color: black;
 }
 
 .selection
@@ -527,6 +514,7 @@ hr {
     margin-top: 5%;
 }
 
+/*--------------forms----------
 form {
     border: solid grey 2px;
     margin: 0 auto;
@@ -562,7 +550,8 @@ input, textarea {
     border: 1px solid #999f;
     color:black;
 }
-
+*/
+/*------------------------Names----------------*/
 .nameStuff {
     text-align: center;
     list-style: none;
@@ -574,6 +563,7 @@ input, textarea {
     color: black;
     font-size: 18px;
     font-weight: bold;
+    font-family: 'Cabin', sans-serif;
 }
 
 .backgroundImageContact {
@@ -589,9 +579,6 @@ input, textarea {
     height: 100%;
 }
 
-.factsCss {
-    float: right;
-}
 
 #favorites img{
     height: 200px;
@@ -610,4 +597,90 @@ input, textarea {
 .homeP {
     text-align: center;
     margin-left: 5%;
+}
+
+
+.backgroundAbout  {
+    background-image: url("../img/ocean.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.backgroundFacts  {
+    background-image: url("../img/facts.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+.about {
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#homeP {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.favs li {
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.photosPage img {
+    height: 16em;
+    width: 17em;
+    border-radius: 2em;
+    margin-top: 5%;
+}
+
+.backgroundImage2 {
+    background-image: url("../img/Penguins.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+#result {
+    border: solid black 5px;
+    background-color: black;
+    border-radius: 1em;
+}
+
+#result p {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.formLink {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+}
+
+.formThing {
+    text-align: center;
+
+}
+
+#displayText p{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+        font-family: 'Cabin', sans-serif;
 }
