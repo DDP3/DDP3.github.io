@@ -1,0 +1,99 @@
+.homePics {
+	padding-bottom: 10px;
+}
+
+
+#biography {
+	font-size: 20px;
+
+}
+
+
+li {
+	list-style: none;
+}
+
+
+
+#result {
+	padding-top: 30px;
+}
+
+
+#navigationBar a:hover {
+    background-color: #4F5174;  
+    color: white;  
+}
+
+
+#navigationBar {
+
+	
+	
+	background-color: #F9C2F7;
+	
+}
+#navigationBar ul {
+	padding: 0;
+
+}
+#navigationBar li {
+	padding-left: 32px;
+	width: 150px;
+
+}
+
+
+.pageWriting {
+	border: solid black 5px;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.buttons {
+	border: solid black 5px;
+	text-align: center;
+	padding: 30px;
+	margin: 20px;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+}
+
+
+
+button {
+	width: 60px;
+	height: 30px;
+	margin: 30px;
+	
+}
+
+
+body {
+	background-color: #CEADEB;
+	
+}
+
+p {
+	font-size: 30px;
+
+}
+
+h3 {
+	font: bold;
+	font-size: 40px;
+}
+
+h2 {
+	font: bold;
+	font-size: 50px;
+}
