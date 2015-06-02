@@ -1,0 +1,80 @@
+h1 {
+	text-align: center;
+	font-family: Times;
+}
+
+h1:hover {
+	color: pink;
+}
+
+h3 {
+	text-align: center;
+	font-family: cursive;
+}
+
+body {
+	background-image: url("congruentpentagon.png");
+}
+
+h4 {
+	text-align: center;
+	padding: 10px;
+}
+
+hr {
+	background-color: black;
+	height: 2px;
+	border: 0;
+}
+
+hr:hover{
+	background-color: red;
+}
+
+img {
+	height: auto;
+	width: 50%;
+}
+
+.writing {
+	border: solid black 5px;
+	color: white;
+	font-family: Times;
+	font-size: 15px;
+	text-align: center;
+	padding: 20px;
+	background-color: teal;
+}
+
+.writing:hover{
+	background-color: pink;
+	color: black;
+}
+
+p {
+	padding: 10px;
+}
+
+#band {
+	height: auto;
+	width: 100%;
+	padding: 20px;
+}
+
+#journalSummary{
+	border: solid black 1px;
+	background-color: teal;
+}
+
+#journalSummary:hover{
+	background: url(paisley.png);
+}
+
+#journalSummary1{
+	border: solid white 1px;
+	background-color: #6FA798;
+}
+
+#journalSummary1:hover{
+	background: url(paisley.png);
+}
