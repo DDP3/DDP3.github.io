@@ -221,6 +221,7 @@ hr {
 .cover {
     font-size: 4.5em;
     color: white;
+    font-family: 'Lobster', cursive;
 }
 
 .cover1 {
@@ -228,6 +229,7 @@ hr {
     color: white;
     text-align: center;
     margin-top: 4%;
+    font-family: 'Lobster', cursive;
 }
 
 .all {
@@ -512,7 +514,7 @@ hr {
     margin-top: 5%;
 }
 
-/*--------------Work in progress----------
+/*--------------forms----------*/
 form {
     border: solid grey 2px;
     margin: 0 auto;
@@ -575,9 +577,6 @@ input, textarea {
     height: 100%;
 }
 
-.factsCss {
-    float: right;
-}
 
 #favorites img{
     height: 200px;
@@ -619,11 +618,36 @@ input, textarea {
 .about {
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.4em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #homeP {
     color: black;
     font-weight: bold;
     font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.favs li {
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.photosPage img {
+    height: 16em;
+    width: 17em;
+    border-radius: 2em;
+    margin-top: 5%;
+}
+
+.backgroundImage2 {
+    background-image: url("../img/Penguins.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
 }
