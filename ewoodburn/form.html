@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Form</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+
+<body>
+	<div class="container">
+		<div id="topBar" class="row">
+			<h1 class="text-center">Emma's Awesome Website</h1>
+		</div>
+
+    <nav class="navbar navbar-default" role="navigation" id="topnavbar">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> Navigation </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="journal.html">Journal</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="rps.html">Rock, Paper, Scissors</a></li>
+                            <li><a href="form.html">Madlibs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+        <div class="row">
+            <div class="col-xs-6 col-md-6 col-sm-6" id="form_holder">
+                <form name="example" action="action" id="example_form" class="form-horizontal">
+
+                    <div class="form-group">
+                        
+                        <h2 class="text-center">Madlibs!</h2>
+                        <h3>Your crush: </h3>
+                        
+                        <input type="password" name="crush" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        
+                        <h3>Adjective </h3>
+                        
+                        <input type="text" name="adjective" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>Choose a verb: </h3>
+
+                        <select name="chooseVerb" class="form-control">
+                            <option value="hate">hate</option>
+                            <option value="poop">poop</option>
+                            <option value="stalk">stalk</option>
+                            <option value="love">love</option>
+                            <option value="fondle">fondle</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>Body part:</h3>
+                        
+                        <input type="text" name="bodyPart" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>A number:</h3>
+                        
+                        <input type="text" name="number" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>Noun:</h3>
+                        
+                        <input type="text" name="firstNoun" class="form-control"/>
+                    </div>
+    
+                    <div class="form-group">
+                        <h3>Adverb:</h3>
+                        
+                        <input type="text" name="adverb" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>Noun:</h3>
+                        
+                        <input type="text" name="secondNoun" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>Term of endearment</h3>
+                        
+                        <input type="text" name="term" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h3>Your name:</h3>
+                        
+                        <input type="text" name="yourName" class="form-control"/>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <input type="submit" name="submit" value="Submit" class="btn btn-default"/>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+                <p id="content-display"></p>
+            </div>
+
+        </div>
+	</div>
+</body>
+
+<script type="text/javascript" src="js/FormScripts.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+</html>

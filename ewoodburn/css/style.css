@@ -1,0 +1,78 @@
+/**MAIN STUFF**/
+#topBar {
+	background-color: #7AA3A2;
+}
+#topnavbar{
+	background-color: white;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#navigation {
+	background-color: white;
+}
+
+#navigation a:hover {
+	background-color: #7AA3A2;
+}
+
+
+body{
+	background-color: #D9FFFE;
+}
+
+.imageHolder {
+	padding-top: 20px;
+}
+
+/**JOURNAL CSS**/
+.journalWrapper{
+	border-radius: 5px;
+	border: solid black 2px;
+	background-color: #7AA3A2;
+}
+
+#buttonBox{
+	
+	text-align: center;
+	margin-top: 20px;
+
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#winnerBox{
+	
+	text-align: center;
+	margin-top: 20px;
+	width: 145px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	height: 125px;
+}
+
+/**FORM CSS**/
+.form-group {
+
+}
+
+#title {
+	padding: 10 0px;
+	background: rgb(216,216,216);
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#form_holder {
+	padding: 0 40px;
+	background-color: rgb(232,232,232);
+	border-radius: 5px;
+	margin-top: 20px;
+	
+}
+
+
+
