@@ -1,0 +1,47 @@
+.date{
+	font-size: 30px;
+}
+
+html{
+	background-color: #9FB5BA;
+}
+
+body{
+	background-color: #9FB5BA;
+}
+
+h1{
+	background-color: white;
+	height: 100px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+a{
+	text-align: center;
+	margin:auto;
+	color: black;
+	
+
+}
+
+.navButton{
+	display:block;
+	background-color: gray;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#navBar{
+	background-color: white;
+	border-radius: 3px;	
+}
+
+#navBar a{
+	display:block;
+}
+
+

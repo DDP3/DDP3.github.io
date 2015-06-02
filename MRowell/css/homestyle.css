@@ -1,0 +1,55 @@
+img{
+	height: 125px;
+	width:550px;
+	margin-top: 2%
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	color: white;
+	margin-top: 12%;
+}
+
+.item{
+	margin-left: 23%;
+	margin-right:20%;
+}
+
+#myCarousel{
+	background-color: #D2D2D2;
+	margin-bottom: 600px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.dropdown{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+body{
+	 background:url(http://www.travelportland.com/wp-content/uploads/2013/04/skylinefrombridge1.jpg) top no-repeat; background-attachment:fixed; 
+}
+
+#title{
+	background-color: black;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+#myInfo{
+	background-color: #D2D2D2;
+	padding-bottom: 5%;
+	border-radius: 4px;
+}
+
+@media (max-width: 750px){
+	
+h1{
+	margin-top: 5%;
+}
+
+}

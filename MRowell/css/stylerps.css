@@ -41,7 +41,32 @@ body{
 }
 
 
+a{
+	text-align: center;
+	margin:auto;
+	color: black;
+	
 
+}
+
+.navButton{
+	display:block;
+	background-color: gray;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+#navBar{
+	background-color: white;
+	border-radius: 3px;	
+}
+
+#navBar a{
+	display:block;
+}
 
 
 
@@ -75,7 +100,12 @@ button{
 	float:left;
 }
 
-}
+
+
+
+
+
+
 /******* @media (min-width: 700px) { ... } ****/ 
 
 
