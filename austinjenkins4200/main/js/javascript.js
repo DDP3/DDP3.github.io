@@ -1,83 +1,4 @@
-//1. set ul width 
-//2. image when click prev/next button
-var ul;
-var li_items;
-var imageNumber;
-var imageWidth;
-var prev, next;
-var currentPostion = 0;
-var currentImage = 0;
 
-
-function init(){
-	ul = document.getElementById('image_slider');
-	li_items = ul.children;
-	imageNumber = li_items.length;
-	imageWidth = li_items[0].children[0].clientWidth;
-	ul.style.width = parseInt(imageWidth * imageNumber) + 'px';
-	prev = document.getElementById("prev");
-	next = document.getElementById("next");
-	//.onclike = slide(-1) will be fired when onload;
-	/*
-	prev.onclick = function(){slide(-1);};
-	next.onclick = function(){slide(1);};*/
-	prev.onclick = function(){ onClickPrev();};
-	next.onclick = function(){ onClickNext();};
-}
-
-function animate(opts){
-	var start = new Date;
-	var id = setInterval(function(){
-		var timePassed = new Date - start;
-		var progress = timePassed / opts.duration;
-		if (progress > 1){
-			progress = 1;
-		}
-		var delta = opts.delta(progress);
-		opts.step(delta);
-		if (progress == 1){
-			clearInterval(id);
-			opts.callback();
-		}
-	}, opts.delay || 17);
-	//return id;
-}
-
-function slideTo(imageToGo){
-	var direction;
-	var numOfImageToGo = Math.abs(imageToGo - currentImage);
-	// slide toward left
-
-	direction = currentImage > imageToGo ? 1 : -1;
-	currentPostion = -1 * currentImage * imageWidth;
-	var opts = {
-		duration:100,
-		delta:function(p){return p;},
-		step:function(delta){
-			ul.style.left = parseInt(currentPostion + direction * delta * imageWidth * numOfImageToGo) + 'px';
-		},
-		callback:function(){currentImage = imageToGo;}	
-	};
-	animate(opts);
-}
-
-function onClickPrev(){
-	if (currentImage == 0){
-		slideTo(imageNumber - 1);
-	} 		
-	else{
-		slideTo(currentImage - 1);
-	}		
-}
-
-function onClickNext(){
-	if (currentImage == imageNumber - 1){
-		slideTo(0);
-	}		
-	else{
-		slideTo(currentImage + 1);
-	}		
-}
 
 
 
@@ -116,7 +37,7 @@ function playWith(option){
 			resultMessage = compare(userOption, computerOption);
 			
 			document.getElementById("result").innerHTML = 
-			"<p>User select: " + userOption + " - Computer select: " 
+			"<p>User select: " + userOption + " - Computer select : " 
 			+ computerOption + "</p> <p>" + resultMessage + "</p>";
 			
   	    }
@@ -164,7 +85,7 @@ function compare(userSelection, computerSelection)
 		    }
 		}  
 
-
+/*---------------google maps---------*/
 function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var mapOptions = {
@@ -176,3 +97,33 @@ function initialize() {
       }
       google.maps.event.addDomListener(window, 'load', initialize);
 		
+/*----------------Form--------------------*/
+
+var form = document.forms.myForm; 
+
+//Creates the variable form which is linked to the documents form with the name "Form".  So when I type form here in JavaScript, it will be referring to the HTML element <form name="Form">.  
+
+
+form.addEventListener("submit", displayPerson, false);  
+	//When the submit is pressed it will run this function
+
+
+function displayPerson(event) {
+	
+	event.preventDefault();
+		//This stop a new page from popping up like php does
+	
+
+	var Person = {
+		name: form.username.value,
+	};
+
+
+		//puts together the information that you typed.
+	var html = "<p>You typed: " + Person.name + ".</p>";
+
+	
+		//This is where the text gooes when all is said and done.
+	document.getElementById("displayText").innerHTML = html;
+}
+

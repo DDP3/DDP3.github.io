@@ -160,7 +160,7 @@ p {
 
 h1 {
     color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Bree Serif', serif;;
     font-size: 65px;
     font-weight: bold;
     letter-spacing: -1px;
@@ -562,6 +562,7 @@ input, textarea {
     color: black;
     font-size: 18px;
     font-weight: bold;
+    font-family: 'Cabin', sans-serif;
 }
 
 .backgroundImageContact {
@@ -650,4 +651,22 @@ input, textarea {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+}
+
+#result {
+    border: solid black 5px;
+    background-color: black;
+    border-radius: 1em;
+}
+
+#result p {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.formLink {
+    text-align: center;
+    font-weight: bold;
+    color: black;
 }
