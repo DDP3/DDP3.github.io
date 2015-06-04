@@ -1,0 +1,48 @@
+body {
+	background-color: #9774AB;
+	color: black; 
+}
+
+#banner {
+	background-color: #582A72;
+	padding: 80px;
+}
+
+#banner h1 {
+	color: #13073A;
+}
+
+#footer-text {
+	font-size: 10px;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h5 {
+	text-decoration: underline;
+	font-size: 1em;
+}
+
+li {
+	list-style: none;
+}
+
+.content {
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.daily {
+	margin-bottom: 20px;
+}
+
+.daily p {
+	font-size: 14px;
+}

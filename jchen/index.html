@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jack Chen's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to Jack Chen's Portfolio</h1>
+			<h7>Look through, with purpose</h7>
+		</header>
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        	<span class="sr-only">Toggle navigation</span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			      	</button>
+			      	<a class="navbar-brand" href="index.html">Home</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav">
+				        <li><a href="journal.html">Web Journal</a></li>
+				        <li class="dropdown">
+				          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
+				          	<ul class="dropdown-menu" role="menu">
+				            	<li><a href="rpsindex.html">Rock Paper and Scissors</a></li>
+				            	<li class="divider"></li>
+				            	<li><a href="https://scratch.mit.edu/projects/15100067/">Survive and Thrive</a></li>
+				            	<li><a href="https://scratch.mit.edu/projects/35994424/">Play with a calculator</a></li>
+				          	</ul>
+				        </li>
+				   	</ul>
+			    </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="container" id="bio-contain">
+			<div class="row">
+				<img src="img/bio-pic.jpg" alt="bio of me" id="bio-img" class="img-responsive img-circle col-sm-offset-1 col-sm-3 col-xs-offset-4 col-xs-4">
+				<div id="bio" class="col-sm-6 col-xs-12">
+					<h4>Biography:</h4>
+					<p>This site was designed with the mind of both simplicity and my personal creativity. I always perferred a simple image and many labels added to pictures or descriptions. In addition, the body of the site is a simple, minimalistic white background while the header has a different shade for each part of the site to establish identity of that part of the site.</p><br>
+					<p>At first, the site was a very simple short bio, a basic nav-bar, and three images in a container that wasn't even centered. After I've gone into bootstrap, the site became more mobile-friendly and have a more orderly design. In addition, the navbar is much more responsive and, in general, better. Finally, the pictures are much more responsive and have basic descriptions on them. The pictures are definitely the better part of the site. The form however is not the most well positioned, it was mostly due to the wierd nature of how bootstrap labels work.</p><br>
+					<p>As for the journal, there wasn't a huge amount of changes. At first, I wanted to have a way to change or make entries without directly changing the HTML code. I found a tool that uses tables and text input to be able to create and save .txt files to a location. I thought that maybe I could make a program to read and save these entries to the jounral. But it turned out that JavaScript + JQuery was not enough, I had to learn and use PHP. So I scrapped that idea; I didn't have enough time to learn PHP throughly enough to use it with all the projects going on. Later on, I wanted an easier way to navigate through the jounral entries. So I stole some of the code from bootstrap's site to create a simple sidebar that navigates through the page using id's. Then the borders for all of the entires were taken out and replaced with more aparent spacing to separate all of the entries.</p><br>
+					<p>For the rock, paper, scissors game, it initially started out as something that would display wins, losses, and ties. There would be a large block that displays your choice and the computers choice. Then there are three buttons right below the block for each three choices. After the basic framework was done, I added in winstreaks and highest winstreak. I also added an output log to display at which round was there a win, loss, or tie. After there was a call to make things more modern, I took out the borders, made the buttons be vertical, have the output log to the side of the buttons (expection on small screen sizes), and have the statistics be more responsive.</p><br>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="images">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="img/plants.jpg" alt="" class="img-responsive img-rounded">
+					<h5>Description:</h5>
+					<p>A few plants that I have been growing as of recently. They will soon be great jalapeno peppers.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="img/Second_Chance48px.png" alt="" class="img-responsive img-rounded">
+					<h5>Description:</h5>
+					<p>A very small icon that I have made. It took me about 3 hours using Paint.NET and it may be used in a game that my friend is making.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="img/meatshield_icon64px.png" alt="" class="img-responsive img-rounded">
+					<h5>Description:</h5>
+					<p>Another very small icon that I made. This one took around 5 hours and it may also be used in a game. This is meant to be a literal meat shield.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<img src="img/hair.jpg" alt="" class="img-responsive img-rounded">
+					<h5>Description:</h5>
+					<p>This is my hair, I am planning on growing it out longer and shaving it all off after graduation. Then I will make a wig out of it and give it to someone who has cancer.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="form-contain">
+			<h2>Fill out the character creation sheet!</h2>
+			<form class="form-horizontal col-md-8 col-xs-12" name="charForm">
+				<div class="form-group">
+					<label for="inputName" class="col-xs-2 control-label">Name</label>
+					<div class="col-xs-6">
+						<input type="text" class="form-control" id="inputName" placeholder="First Name" name="inputName">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="inputLast" class="col-xs-2 control-label">Last Name</label>
+					<div class="col-xs-6">
+						<input type="text" class="form-control" placeholder="Last Name" id="inputLast" name="inputLast">
+					</div>
+				</div>		
+				
+				<div class="form-group">
+					<label for="inputAge" class="col-xs-2 control-label">Age</label>
+					<div class="col-xs-3 col-sm-2">
+						<select id="inputAge" class="form-control" name="inputAge">
+						</select>
+						<script text="text/javascript">
+							var ages = "";
+							for (i = 1; i < 100; i++) {
+								ages += "<option>" + i + "</option>";	
+							};
+							document.getElementById('inputAge').innerHTML = ages;
+						</script>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="darkestSecret" class="control-label col-xs-2">Darkest Secret</label>
+					<div class="col-xs-9 col-lg-10">
+						<input type="password" class="form-control" id="darkestSecret" placeholder="Your Darkest Secret" name="darkestSecret">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-xs-10 col-xs-offset-1">
+						<h4>Choose Your Class:</h4>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="peasant" class="inputClass">
+								Filthy peasant
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="student" class="inputClass">
+								Student
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="teacher" class="inputClass">
+								Teacher
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="fighter" class="inputClass">
+								Fighter
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="lord" class="inputClass">
+								A Lord (or Lady)
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="not" class="inputClass">
+								Not a Peasant
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="inputClass" value="period3" class="inputClass">
+								Period 3
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="submit" class="col-xs-2 control-label">Submit</label>
+					<div class="col-xs-10">
+						<input name="submit" type="submit" value="Click me!" class="btn btn-default">
+					</div>
+				</div>
+			</form>
+
+			<div class="container col-md-4 col-xs-12">
+				<div class="row">
+					<div class="col-sm-offset-1 col-sm-6 col-md-offset-2 col-md-8 col-xs-12" id="formOutput">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<hr>
+			<p id="footer-text">Site created by Jack Chen.</p>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/homescript.js"></script>
+	</body>
+</html>

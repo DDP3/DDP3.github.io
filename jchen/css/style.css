@@ -1,0 +1,29 @@
+body {
+	background-color: #E69450;
+}
+
+header {
+	background-color: #D57627;
+	padding: 80px;
+}
+
+#bio-contain {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+#bio-image {
+	margin-bottom: 10px;
+}
+
+#images {
+	margin-bottom: 40px;
+}
+
+#form-contain {
+	margin-left: 10px;
+}
+
+#footer-text {
+	font-size: 10px;
+}

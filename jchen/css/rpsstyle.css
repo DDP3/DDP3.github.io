@@ -1,0 +1,42 @@
+body {
+	background-color: #B4E0B4;
+}
+
+header {
+	background-color: #88CC88;
+	padding: 80px;
+}
+
+#response {
+	padding: 10px;
+	height: 300px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#user {
+	float: left;
+}
+
+#computer {
+	float: right;
+}
+
+img {
+	width: 120px;
+	height: 120px;
+}
+
+#output_log {
+	height: 275px;
+	overflow: scroll;
+}
+
+#score {
+	margin-top: 20px;
+}
+
+#footer-text {
+	font-size: 10px;
+}

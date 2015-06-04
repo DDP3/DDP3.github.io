@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/rpsstyle.css">
+
+		<title>Rock Paper Scissors</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Rock Paper Scissors!</h1>
+			<h7>Choose rock, paper, or scissors down below on the buttons.</h7>
+		</header>
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+			      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			    	<span class="sr-only">Toggle navigation</span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			        	<span class="icon-bar"></span>
+			      	</button>
+			      	<a class="navbar-brand" href="index.html">Home</a>
+			    </div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				    <ul class="nav navbar-nav">
+				        <li><a href="journal.html">Web Journal</a></li>
+				        <li class="dropdown">
+				          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Games <span class="caret"></span></a>
+				         	<ul class="dropdown-menu" role="menu">
+				            	<li><a href="rpsindex.html">Rock Paper and Scissors</a></li>
+				            	<li class="divider"></li>
+				            	<li><a href="https://scratch.mit.edu/projects/15100067/">Survive and Thrive</a></li>
+					           	<li><a href="https://scratch.mit.edu/projects/35994424/">Play with a calculator</a></li>
+				          	</ul>
+				        </li>
+				   	</ul>
+			    </div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="container">
+			<div id="stats" class="row">
+				<ul class="col-xs-4 col-md-offset-3">
+					<div class="column">WINS: <span id="win_stats"></span><br></div>
+					<div class="column">TIES: <span id="tie_stats"></span><br></div>
+					<div class="column">LOSSES: <span id="loss_stats"></span></div>
+				</ul>		
+			</div>
+			<br>
+
+			<div id="score" class="row">
+				<div class="col-md-2 col-md-offset-3 col-sm-12 column" id="streak">
+					<h5>WIN STREAK:</h5>
+					<h5 id="streak_stats"></h5>
+				</div>
+
+				<div class="col-md-2 col-md-offset-2 col-sm-12 column">
+					<h5>HIGH SCORE:</h5>
+					<h5 id="highscore_stats"></h5>
+				</div>
+
+				<div class="col-xs-3"></div>
+			</div>
+
+			<div id="response" class="container">
+				<div class="row">
+					<div id="user" class="small col-sm-4 col-xs-12">
+						<h3>YOUR CHOICE</h3>
+						<h3 id="user_action"></h3>
+					</div>
+
+					<div id="computer" class="small col-sm-4 col-xs-12">
+						<h3>COMPUTER'S CHOICE</h3>
+						<h3 id="comp_action"></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="bottom_row">
+			<div class="row">
+				<div id="inputs" class="col-xs-12 col-md-3">
+					<h3>Choose rock, paper, or scissors</h3>
+					<button onclick="player_rock()" class="btn-lg btn-primary">ROCK</button><br>
+					<button onclick="player_paper()" class="btn-lg btn-primary">PAPER</button><br>
+					<button onclick="player_scissors()" class="btn-lg btn-primary">SCISSORS</button><br>
+				</div>
+
+				<div id="output_log" class="col-xs-12 col-md-9">
+					<p id="output">Log of your actions are here:</p>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<hr>
+			<p id="footer-text">Site created by Jack Chen.</p>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/rpsscript.js"></script>
+	</body>
+</html>
