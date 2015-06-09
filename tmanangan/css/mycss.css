@@ -1,0 +1,29 @@
+.container-1{
+	width: 93.5%;
+	height: 40%;
+	padding: 10px;
+	background-color: darkgray;
+	position: relative; top: 50px; left: 50px;
+}
+
+#body-box{
+background-image: url("http://upload.wikimedia.org/wikipedia/commons/e/e2/Black_hole_devours_a_neutron_star_01.jpg");
+background-size: 100%;
+width: 100%;
+height: 630px;
+padding: 5px;
+}
+#header{
+	width: 92.5%;
+	height: 20%;
+	background-color: darkgray;
+	padding: 10px;
+	position: relative; top: 50px; left: 50px;
+}
+.container-2{
+	width: 93.5%;
+	height: 100%;
+	padding: 10px;
+	background-color: darkgray;
+	position: relative; top: 50px; left: 50px;
+}

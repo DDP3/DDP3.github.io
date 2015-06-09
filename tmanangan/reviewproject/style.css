@@ -1,0 +1,101 @@
+.bigtext {font-size:24pt;
+}
+
+.submenu { 
+width: 110px;
+margin: 5px;
+padding: 5px;
+background-color: silver;
+color: white;
+float: center;
+}
+
+#contentbox {
+background-color: silver;
+margin-right: 50px;
+margin-left: 50px;
+width: 1450px;
+height: 550px;
+float: left;
+padding: 10px;
+
+}
+
+#contentbox-small {
+background-color: silver;
+margin-right: 50px;
+margin-left: 50px;
+width: 1450px;
+height: 120px;
+float: left;
+padding: 10px;
+
+}
+
+#contentbox-red {
+background-color: red;
+margin-right: 50px;
+margin-left: 50px;
+width: 1330px;
+height: 530px;
+float: left;
+padding: 10px;
+
+}
+
+body {
+background: red;
+}
+
+#contentbox-purple{
+background-color: purple;
+margin-right: 50px;
+margin-left: 50px;
+width: 1450px;
+height: 480px;
+float: left;
+padding: 10px;
+
+}
+
+#contentbox-d-blue{
+background-color: darkblue;
+margin-right: 50px;
+margin-left: 50px;
+width: 1450px;
+height: 480px;
+float: left;
+padding: 10px;
+
+}
+
+#contentbox-yolo{
+background-color: green;
+margin-right: 50px;
+margin-left: 50px;
+width: 1450px;
+height: 1360px;
+float: left;
+padding: 10px;
+
+}
+
+#contentbox-red-long {
+background-color: red;
+margin-right: 50px;
+margin-left: 50px;
+width: 1330px;
+height: 1330px;
+float: left;
+padding: 10px;
+
+}
+
+.jurnal-entrees {
+	border: solid darkblue 5px;
+	border-radius: 5px;
+	background-color: lightblue;
+	margin: 10px auto;
+	width: 40%;
+	padding: 5px;
+}

@@ -1,0 +1,31 @@
+#body-box{
+background-image: url("http://upload.wikimedia.org/wikipedia/commons/f/f3/Galaxy_history_revealed_by_the_Hubble_Space_Telescope_(GOODS-ERS2).jpg");
+margin-right: 50px;
+margin-left: 50px;
+width: 90%;
+height: 100%;
+float: center;
+padding: 10px;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	float: center;
+}
+body{
+	background-image: url("http://fc01.deviantart.net/fs29/f/2008/167/b/a/Cherish__The_Icon_of_Air_by_psykikraithe.jpg");
+}
+h1{
+	background-color: white;
+	text-align: center;
+}
+
+.submenu{
+	width: 110px;
+margin: 5px;
+padding: 5px;
+background-color: silver;
+color: white;
+float: center;
+}
