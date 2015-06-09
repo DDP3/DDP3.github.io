@@ -1,0 +1,63 @@
+body {
+	background-image: url("http://www.wallpaperbeautiful.com/thumbnails/detail/20130525/outer%20space%20stars%20nebulae_wallpaperbeautiful_92.jpg");
+}
+
+h1 {
+	color: #0099FF;
+	font-size: 50px;
+}
+
+img {
+	
+	border: solid black 10px;
+}
+
+#topbanner {
+	text-align: center;
+	background-color: #000066;
+
+}
+
+#content {
+	color: white;
+	border-radius: 20px;
+	border: solid black;
+	padding: 5%;
+}
+
+#motto {
+	background-color: #000066;
+	color: #EBF213;
+	font-size: 30px;
+	text-align: center;
+}
+
+#bodytext {
+	background-color: #000066;
+	color: #0099FF;
+	font-size: 20px;
+	border: solid black 10px;
+
+}
+
+
+#entries {
+	background-color: #000066;
+	color: #0099FF;
+	font-size: 20px;
+	border: solid black 30px;
+	text-align: left;
+}
+
+#pink {
+	color: #FA11F2;
+	font-size: 20px;
+	background: black
+}
+.navbar {
+	background-color: black;
+}
+
+#navbar-custom a {
+	color: #FA11F2;
+}
