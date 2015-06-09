@@ -1,0 +1,194 @@
+/*this changes text color*/
+.bluetext {color: blue;
+}
+
+/*this changes text size*/
+.bigtext {font-size:24pt;
+}
+
+/*this controlls the bodys text color */
+p {
+color: green;
+}
+
+
+
+#container {
+background-color: purple;
+width: 80%;
+height: 970px;
+border-top: 5px;
+border-left: 5px;
+border-right: 5px;
+border-bottom: 5px;
+/*padding: 5px;*/
+margin-right: auto;
+margin-left: auto;
+margin-top: auto;
+}
+
+
+#header {
+background-color: grey;
+width: 92%;
+margin-right: 50px;
+margin-left: 50px;
+margin-top: 10px;
+color: white;
+font-size: 18px;
+float: left;
+
+}
+
+
+
+#headerbaotemp {
+background-color: #505050 ;
+width: 1200px;
+height: 70px;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 10px;
+color: white;
+font-size: 18px;
+float: left;
+-webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+animation: myfirst 5s;
+}
+
+/* code copied and modified from wwww.w3c.org http://www.w3schools.com/css/css3_animations.asp */
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+from {background: #384C57;}
+to {background: grey ;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+from {background: Red;}
+to {background: ;}
+}
+
+
+
+
+
+body {
+background: black;
+}
+
+#footsy2{
+margin-right: 50px;
+margin-left: 50px;
+margin-bottom: 5px;
+width: 800px;
+height: 70px;
+/*padding: 4px;*/
+background-color: gray;
+font-size: 18px;
+float: left;
+}
+
+#footsy{
+margin-right: 50px;
+margin-left: 50px;
+margin-bottom: 5px;
+width: 920px;
+height: 70px;
+/*padding: 4px;*/
+background-color: gray;
+font-size: 18px;
+float: left;
+}
+
+/* Treston M*/
+.submenu { 
+width: 110px;
+margin: 5px;
+padding: 5px;
+background-color: silver ;
+color: white;
+float: left;
+
+-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+transition: width 2s;
+}
+
+
+div:hover {
+width: 180px;
+}
+
+
+
+#contentbox {
+background-color: silver;
+margin-right: 50px;
+margin-left: 50px;
+width: 90%;
+height: 800px;
+float: left;
+padding: 10px;
+
+}
+
+#contentbox-black {
+background-color: black;
+margin-right: 50px;
+margin-left: 50px;
+width: 780px;
+height: 800px;
+float: left;
+padding: 10px;
+
+}
+
+/*this makes font green*/
+.ibegreen{
+color: green;
+font-size: 14pt;
+}
+
+#contentbox-red {
+background-color: red;
+margin-right: 50px;
+margin-left: 50px;
+width: 780px;
+height: 1200px;
+float: left;
+padding: 10px;
+}
+
+#contentbox-black-small {
+background-color: black;
+margin-right: 50px;
+margin-left: 50px;
+width: 900px;
+height: 1200px;
+float: left;
+padding: 10px;
+}
+
+.submenu-red { 
+width: 110px;
+margin: 5px;
+padding: 5px;
+background-color: red ;
+color: white;
+float: left;
+}
+
+#container-blue {
+background-color: blue;
+width: 1000px;
+height: 1500px;
+border-top: 5px;
+border-left: 5px;
+border-right: 5px;
+border-bottom: 5px;
+/*padding: 5px;*/
+margin-right: auto;
+margin-left: auto;
+margin-top: auto;
+}
+
