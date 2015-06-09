@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>RPSLS</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Maddy Shelton's Portfolio</h1>
+    
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="game.html">Game</a></li><li><a href="journal.html">Web Journal</a></li><li><a href="forms.html">Forms</a></li><li><a href="http://bigbangtheory.wikia.com/wiki/Rock_Paper_Scissors_Lizard_Spock">Rules for RPSLS</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="game.html">Game</a></li>
+            <li><a href="journal.html">Web Journal</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li class="divider"></li>
+            <li><a href="http://bigbangtheory.wikia.com/wiki/Rock_Paper_Scissors_Lizard_Spock">Rules for RPSLS</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://twitter.com/?lang=en">Twitter</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More Links<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=big%20bang%20theory&oq=big%20ban&aqs=chrome.1.69i57j0l5.4657j0j7">About The Big Bang Theory</a></li>
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li class="divider"></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container"><!--start of container div!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Rock ~ Paper ~ Scissors ~ Lizard ~ Spock</h1><br><br><br>
+        </div>
+      </div>
+      <div class="row">
+       
+       <div class="col-xs-2"></div>
+        <div class="col-xs-4">
+          <img class="img-responsive img-gallery" src="http://images.clipartpanda.com/rubble-clipart-mr-rock-hi.png" onClick="playerRock()">
+        </div>
+
+       <div class="col-xs-4">
+           <img class="img-responsive img-gallery" src="http://www.clker.com/cliparts/b/9/1/6/1398320863296274629Stack%20of%20Papers.svg.med.png" onClick="playerPaper()">
+        </div>
+        <div class="col-xs-2"></div>
+      </div>
+      <div class="row">
+       
+
+        <div class="col-xs-4">
+           <img class="img-responsive img-gallery" src="http://pngimg.com/upload/scissors_PNG16.png" onClick="playerScissors()">
+        </div>
+
+        <div class="col-xs-4">
+           <img class="img-responsive img-gallery"  src="http://pixabay.com/static/uploads/photo/2014/03/25/16/57/gecko-297701_640.png" onClick="playerLizard()">
+        </div>
+
+        <div class="col-xs-4">
+           <img class="img-responsive img-gallery" src="http://fc07.deviantart.net/fs71/i/2012/348/3/9/pv_series_st_tos_spock_by_woshibbdou-d5nzxqw.png" onClick="playerSpock()">
+        </div>
+      </div>
+       
+
+        </div>
+      </div>
+      </div>
+
+
+    </div><!--end of container div!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/formscripts.js"></script>
+  </body>
+</html>
+
