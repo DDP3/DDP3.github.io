@@ -1,0 +1,57 @@
+/*
+ Width: 1200px
+ # Columns : 12 
+ Column width: 78px
+ Gutter : 24px 
+
+ */
+
+.grid_1 { width: 78px; }
+.grid_2 { width: 180px; }
+.grid_3 { width: 282px; }
+.grid_4 { width: 384px; }
+.grid_5 { width: 486px; }
+.grid_6 { width: 588px; }
+.grid_7 { width: 690px; }
+.grid_8 { width: 792px; }
+.grid_9 { width: 894px; }
+.grid_10 { width: 996px; }
+.grid_11 { width: 1098px; }
+.grid_12 { width: 1200px; }
+
+.grid_x { width: 275px; }
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	margin: 0 12px 12px 0;
+	float: left;
+	display: block;
+}
+
+.alpha{margin-left:0px;}
+.omega{margin-right:0px;}
+
+.container {
+	width: 1200px; 
+  height: auto;
+	margin: auto;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
