@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Rock-Paper-Sword Dojo!</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/rps.css">
+
+</head>
+
+<body>
+
+	
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">Rock-Paper-Sword Dojo!</h1>
+        </div>
+      </div>
+
+
+     <nav class="navbar navbar-default" id="navbar-custom">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portal of Geekdom</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="rockpaperscissors.html">Enter the Dojo!</a></li>
+        <li><a href="artwork.html">Artwork</a></li>
+        <li><a href="cinema.html">Cinema</a></li>
+        <li><a href="journal.html">Coder's log</a></li>
+        
+
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rockpaperscissors.html">Enter the Dojo!</a></li>
+            <li><a href="artwork.html">Artwork</a></li>
+            <li><a href="cinema.html">Cinema</a></li>
+            <li><a href="journal.html">Coder's Log</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+      	<div class="row">
+        	
+
+			<div class="col-xs-6 col-sm-3" id="pic">
+				<img class="img-responsive" src="https://s-media-cache-ak0.pinimg.com/236x/a4/e4/01/a4e401e850a60266e10440dfd4e3ca1a.jpg " onClick="playerPaper()" alt="paper">
+			</div>
+
+			<div class="col-xs-6 col-sm-3 stack" id="pic">
+				<img class="img-responsive"src="http://www.japanese-samurai-swords.net/store/images/T/japanese-swords-samurai-ryumon-phoenix-katana.jpg"
+					onClick="playerScissors()" alt="sword">
+			
+				<img class="img-responsive" src="https://davidzinger.files.wordpress.com/2007/05/zen-rock.jpg" 
+					onClick="playerRock()" alt="rock">
+			</div>
+			
+		
+			<div class="col-xs-6 col-sm-6" id="result">
+				<img class="img-responsive" src= "http://johnnygoodtimes.com/wp-content/uploads/2010/10/question-marks22.jpg">
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/rps.js"></script>
+	<script src="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
