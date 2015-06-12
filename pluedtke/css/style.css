@@ -1,0 +1,44 @@
+header {
+	text-align: center;
+	list-style: none;
+	margin: auto;
+}
+
+#journal {
+	border: solid black 5px;
+	text-align: center;
+	list-style: none;
+	margin: auto;
+	border-radius: 5px;
+	padding: 0px;
+	background-color: #FFD700;
+}
+.outLogs {
+	margin: -10px;
+}
+.logs {
+	border: solid black 5px;
+	list-style: none;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 0px;
+	background-color: #FFD700;
+}
+#bonfire {
+	height: 360px;
+	width: auto;
+	border: solid black 4px;
+	margin: auto;
+}
+#Godzilla {
+	height: 360px;
+	width: auto;
+	border: solid black 4px;
+	margin: auto;
+}
+#fallout3 {
+	height: 360px;
+	width: auto;
+	border: solid black 4px;
+	margin: auto;
+}

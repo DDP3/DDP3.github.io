@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Basics</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	
+	<body>
+		<header>
+			<h1>Patrick's Website</h1>
+		</header>		
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Nav bar</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="game.html">Game</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>	
+	
+	<h1>About me</h1>
+		<div id="about">
+		<p>My Name is Patrick Luedtke. I am 17 years old, will be 18 by the end of this month (June 2015). I am a huge nerd. I love movies, video games, youtube, etc. My favorite movie character of all time is Godzilla. Some of my favorite video games are Dark Souls and Fallout 3. I was born in Portland, Oregon. I have lived in various places in Oregon including: Portland (obviously), Mapleton, Clackamas, Estacada, and Welches.
+		</p>
+		</div>
+		<hr>			
+		<div class="row">
+  			<div class="col-xs-6 col-md-4">
+  				<img id="bonfire" class="img-responsive" src="img/bonfire.jpg" alt="Responsive Image">
+  			</div>
+  			<div class="col-xs-6 col-md-4">
+  				<img id="Godzilla" class="img-responsive" src="img/Godzilla.jpg" alt="Responsive Image">
+  			</div>
+  			<div class="col-xs-6 col-md-4">
+  				<img id="fallout3" class"img-responsive" src="img/fallout3.jpg" alt="Responsive Image">
+  			</div>
+		</div>
+    <hr>
+
+		<center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Form Questions</button></center>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      <h3 class="modal-title" id="myModalLabel">Questions</h3>
+  </div>
+  <div class="modal-body">
+  <div class="row" id="formTop" style="padding-left: 55px">
+  <div class="col-md-10" id="form_holder">
+    <form name="example" action="action" id="example_form" class="form-horizontal">
+      <div class="form-group">
+        <h5>Name: </h5>
+        <input type="text" name="username" class="form-control">
+      </div>
+      <div class="form-group">
+        <h5>Bio: </h5>
+        <textarea rows="4" class="form-control" name="bio"></textarea>
+      </div>
+      <div class="row">
+      <div class="form-group col-md-6">
+        <h5>Gender:</h5>
+        <div class="radio">
+          <label>
+          <input type="radio" name="gender" value="male">Male 
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="gender" value="female">Female 
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+          <input type="radio" name="gender" value="other">Other
+          </label>
+        </div>
+      </div>
+      <div class="form-group col-md-6">
+        <h5>Do you have:</h5>
+        <div class="checkbox">
+          <label>
+          <input type="checkbox" name="food" value="Waffles">Waffles
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+          <input type="checkbox" name="food" value="Pancakes">Pancakes
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+          <input type="checkbox" name="food" value="French Toast">French Toast
+          </label>
+        </div>
+      </div>
+      </div>
+      <div class="form-group" id="selector_block">
+        <h5>I want a: </h5>
+          <select name="Iwant" class="form-control">
+            <option value="Car">Car</option>
+            <option value="Smart phone">Smart Phone</option>
+            <option value="TV">TV</option>
+            <option value="Computer">Computer</option>
+            <option value="Don't know">Don't know</option>
+          </select>
+      </div>
+      <div class="form-group text-center">
+        <input type="submit" name="submit" value="Submit" class="btn btn-default">
+      </div>
+      <hr>
+      <div class="col-md-8" id="content-display">
+      </div>
+    </form>
+  </div>
+  </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+  </div>
+  </div>
+</div>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/formscript.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+
+	<body>
+		<header>
+			<h1>Patrick's Website</h1>
+		</header>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Nav bar</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li class="active"><a href="game.html">Game</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<br>
+		<div class="container gamecontainer">
+			<br><br>
+			<!-- Button trigger modal -->
+			<center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+			  Instructions
+			</button></center>
+			<br>
+			<div class="jumbotron">
+			  <div class="container">
+				<center><h4 id="score">Times Won: 0</h4></center>
+				<div class="row gamerow">
+				  <div class="col-md-4">
+				  <h1>Player</h1>
+					<div id="player">
+						<h3>Rock</h3>
+						<img src="img/rock.png">
+					</div>
+				  </div>
+				   <div class="col-md-4">
+					<br><br>
+					<h1 id="winner"></h1>
+				  </div>
+				  <div class="col-md-4">
+				  <h1>Computer</h1>
+					<div id="computer">
+						<h3>Rock</h3>
+						<img src="img/rock.png">
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="row gamerow">
+			<h3>Pick your choice</h3>
+			  <div class="col-md-4"><h3>Rock</h3><img onclick="playerRock()" class="image-high" src="img/rock.png"></div>
+			  <div class="col-md-4"><h3>Paper</h3><img onclick="playerPaper()" class="image-high" src="img/paper.png"></div>
+			  <div class="col-md-4"><h3>Scissors</h3><img onclick="playerScissors()" class="image-high"src="img/scissors.png"></div>
+			</div>
+			<br><br><br>
+		</div>
+	</body>
+	
+	<footer>
+		<script type="text/javascript" src="js/game.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Instructions</h4>
+			  </div>
+			  <div class="modal-body">
+				Click on rock, paper, or scissors. The computer will then randomly it's own choice and will determine who wins.
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</footer>
+</html>
