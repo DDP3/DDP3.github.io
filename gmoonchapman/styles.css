@@ -1,0 +1,55 @@
+h1{
+	text-align:center;
+	color:yellow;
+}
+
+body{
+	background-color:#00CC00;
+}
+
+
+/*id for the div around the buttons*/
+.gameWrapper {
+	width:80%;
+	border:solid black 10px;
+	border-radius:20px;
+	background-color:grey;
+	padding:20px;
+	margin:auto;
+}
+
+.gameWrapper button {
+	display:block;
+	margin:auto;
+}
+
+/*below is the css for the home page*/
+
+h4{
+	color:yellow;
+}
+
+/*body div{
+	color:yellow;
+}
+*/
+/*css for the journal*/
+
+#container2{
+	height:1000px;
+	width:750px;
+	background-color:#547684;
+	padding:10px;
+	margin:auto;
+}
+
+.journalWrapper {
+	border:solid black 10px;
+	border-radius:10px;
+	background-color:#6F8CE6;
+	margin:20px auto;
+	width:85%;
+	padding:10px;
+	margin-top:20px;
+}
+
