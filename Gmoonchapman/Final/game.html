@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- link to the CSS and bootstrap -->
+	<title>DDCC Final Project</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+<!-- text at the top of page -->
+<div id="banner"  >
+	<div class="row banner-fix">
+	<div class="col-sm-6">
+		<h1>Garrett's Final Project</h1>
+	</div>
+	</div>
+</div>
+	<!-- confusing as hell navbar code -->
+<nav class="navbar navbar-inverse" role="navigation" id="topnavbar">
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Portfolio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+				<li><a href="game.html">Game</a></li>
+				<li><a href="journal.html">Web Journal</a></li>
+				<li class="dropdown">
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="game.html">Game</a></li>
+						<li><a href="journal.html">Web Journal</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+	<h1>Rock Paper Scissors</h1>
+
+<!-- Div with the buttons to play the game inside -->
+	<div class="gameWrapper">
+		<button id="rock" onClick="playerRock()">Rock</button>
+		<button id="paper" onClick="playerPaper()">Paper</button>
+		<button id="scissors" onClick="playerScissors()">Scissors</button>
+	</div>
+
+	<script src="scripts.js"></script>
+	<!-- Javascript file link -->
+</body>
+</html>
