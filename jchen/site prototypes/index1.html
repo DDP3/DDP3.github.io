@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/site1css.css">
 </head>
-	<body style="padding-top:70px">
+	<body style="padding-top:70px" onresize="rowmarg()">
 
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
@@ -40,18 +40,47 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 
-		<div class="row">
-			<a href="#jumpHere"><div id="baseCard" class="card col-md-4 col-sm-6">
-				<h4 class="cardText">Resume</h4>
-			</div></a>
-			<div class="card col-md-4 col-sm-6">
-				<h4 class="cardText">Projects</h4>
+		<div id="cardRow" class="row" style="margin-left:15px;margin-right:15px;">
+			<div id="baseCard" class="wrapper col-md-4 col-xs-6">
+				<a href="#jumpHere">
+					<div class="card">
+						<h4 class="cardText">Resume</h4>
+					</div>
+				</a>
 			</div>
-			<div class="card col-md-4 col-sm-6">
-				<h4 class="cardText">About</h4>
+			<div class="wrapper col-md-4 col-xs-6">
+				<a href="#jumpHere">
+					<div class="card">
+						<h4 class="cardText">Projects</h4>
+					</div>
+				</a>
 			</div>
+			<div class="wrapper col-md-4 col-xs-6">
+				<a href="#jumpHere">
+					<div class="card">
+						<h4 class="cardText">About</h4>
+					</div>
+				</a>
+			</div>
+			<div class="wrapper col-md-4 col-xs-6">
+				<a href="#jumpHere">
+					<div class="card">
+						<h4 class="cardText">About</h4>
+					</div>
+				</a>
+			</div>
+			<div class="wrapper col-md-4 col-xs-6">
+				<a href="#jumpHere">
+					<div class="card">
+						<h4 class="cardText">About</h4>
+					</div>
+				</a>
+			</div>						
 		</div>
 
 		<div id="jumpHere" style="height:100px"></div>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>
