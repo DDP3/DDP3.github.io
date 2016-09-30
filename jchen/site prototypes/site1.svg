@@ -130,16 +130,16 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
      inkscape:cx="328.41383"
-     inkscape:cy="587.90842"
+     inkscape:cy="982.89574"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false"
      inkscape:snap-grids="true"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -149,7 +149,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -158,30 +158,30 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0"
+       style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect4161"
        width="743.47229"
        height="274.76151"
        x="2.0203052"
-       y="-6.2776623" />
+       y="80.150909" />
     <rect
        style="fill:#000000;fill-opacity:1"
        id="rect4163"
        width="741.45197"
        height="40.406101"
-       x="0"
-       y="270.50412" />
+       x="-1.4285715"
+       y="-6.6387372" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="8.5714283"
-       y="310.21936"
+       x="31.428572"
+       y="29.505075"
        id="text4165"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4167"
-         x="8.5714283"
-         y="310.21936">Home</tspan></text>
+         x="31.428572"
+         y="29.505075">Home</tspan></text>
     <rect
        style="fill:#000000;fill-opacity:0;stroke:url(#linearGradient5615)"
        id="rect4169"
@@ -279,32 +279,76 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-137.14285"
-       y="290.93362"
+       x="-142.14285"
+       y="18.076481"
        id="text5771"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5773"
-         x="-137.14285"
-         y="290.93362">Bootstrap allows</tspan><tspan
+         x="-142.14285"
+         y="18.076481">Bootstrap allows</tspan><tspan
          sodipodi:role="line"
-         x="-137.14285"
-         y="308.12112"
+         x="-142.14285"
+         y="35.263981"
          id="tspan5775">auto-&quot;hamburger&quot;</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-132.85715"
-       y="327.36221"
+       x="-189.28572"
+       y="57.362209"
        id="text5806"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan5808"
-         x="-132.85715"
-         y="327.36221">Responsive before</tspan><tspan
+         x="-189.28572"
+         y="57.362209"
+         id="tspan5810">Bar responsive to scrolling</tspan><tspan
          sodipodi:role="line"
-         x="-132.85715"
-         y="344.54971"
-         id="tspan5810">static to top</tspan></text>
-  </g>
+         x="-189.28572"
+         y="74.549713"
+         id="tspan3405">(stays on top)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-165.71429"
+       y="713.79077"
+       id="text3375"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3377"
+         x="-165.71429"
+         y="713.79077">Cards either link to</tspan><tspan
+         sodipodi:role="line"
+         x="-165.71429"
+         y="730.97827"
+         id="tspan3379">another page or &quot;open&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="-165.71429"
+         y="748.16577"
+         id="tspan3381">the reveal the content</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="43.57143"
+       y="153.79079"
+       id="text3397"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3399"
+         x="43.57143"
+         y="153.79079">Splash Text</tspan><tspan
+         sodipodi:role="line"
+         x="43.57143"
+         y="181.91579"
+         id="tspan3401" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3407"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:22.5px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3409"><rect
+           id="rect3411"
+           width="0"
+           height="22.857143"
+           x="-73.571426"
+           y="112.36221" /></flowRegion><flowPara
+         id="flowPara3413"></flowPara></flowRoot>  </g>
 </svg>

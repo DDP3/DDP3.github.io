@@ -3,19 +3,17 @@ body {
 }
 
 .wrapper {
-	width: 260px;
-	height: 230px;
 	margin: auto;
 	margin-bottom: 10px;
 }
 
 .card {
-	height: 230px;
+	height: 230px; /**This one height is necesary but chosen size not final**/
 	border-radius: 10px;
 }
 
 .card:hover {
-	background-color: #B5D0E5;
+	background-color: #B5D0E5; /**May use JS to change to another preset for a dark theme**/
 }
 
 #cardRow {
