@@ -8,13 +8,17 @@ body {
 }
 
 .icBox {
-	width: 100px;
-	height: 100px;
+	width: inherit;
+	height: inherit;
+	padding: 10px;
+	font-size: 5.5em;
 	margin: auto;
 }
 
 .icBox i {
 	font-size: inherit;
+	display: inherit;
+	text-align: center;
 }
 
 .wrapper {
@@ -39,4 +43,23 @@ body {
 
 h4 {
 	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color: #343434;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
 }
